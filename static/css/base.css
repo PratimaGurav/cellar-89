@@ -5,10 +5,10 @@ html {
 }
 
 body {
-    background: url('/media/red-wine-signage-on-table.jpeg') no-repeat center center fixed;
+    background-image: linear-gradient(to right top, #760a17, #770921, #770a2a, #750f33, #73143c);
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #760A17;
+    color: black;
     font-family: 'Josefin Sans', sans-serif;
 }
 
