@@ -5,8 +5,8 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to right top, #760a17, #770921, #770a2a, #750f33, #73143c);
-    background-size: cover;
+    /* background-image: linear-gradient(to right top, #760a17, #770921, #770a2a, #750f33, #73143c);
+    background-size: cover; */
     height: calc(100vh - 164px);
     color: black;
     font-family: 'Josefin Sans', sans-serif;
