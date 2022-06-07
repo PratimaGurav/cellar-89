@@ -1,0 +1,50 @@
+[
+    {
+      "pk": 1,
+      "model": "products.category",
+      "fields": {
+        "name": "red_wine",
+        "friendly_name": "Red Wine"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.category",
+      "fields": {
+        "name": "white_wine",
+        "friendly_name": "White Wine"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.category",
+      "fields": {
+        "name": "discounts",
+        "friendly_name": "Discounts"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.category",
+      "fields": {
+        "name": "wine_packages",
+        "friendly_name": "Wine Packages"
+      }
+    },
+    {
+      "pk": 5,
+      "model": "products.category",
+      "fields": {
+        "name": "sparkling_wine",
+        "friendly_name": "Sparkling Wine"
+      }
+    },
+    {
+      "pk": 6,
+      "model": "products.category",
+      "fields": {
+        "name": "champagne",
+        "friendly_name": "Champagne"
+      }
+    }
+  ]
