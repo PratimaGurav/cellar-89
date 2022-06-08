@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-color: #ee7272;
+    background-color: #ffb9b9;
     background-size: cover;
     height: calc(100vh - 164px);
     color: black;
@@ -32,6 +32,21 @@ h1 h2 h3 h4 h5 h6 {
 .main-logo-link {
     width: fit-content;
 }
+
+/*--NavBar--*/
+.nav-link {
+    font-size: 20px !important;
+}
+
+.navbar-nav .nav-link {
+    color: #6d0202 !important;
+    padding-left: 20px !important;
+}
+
+.dropdown-item:hover {
+    background-color: #ee7272!important;
+}
+
 
 .btn-black {
     background: black;
@@ -78,6 +93,10 @@ h1 h2 h3 h4 h5 h6 {
     height: 45vh;
 }
 
+.link {
+    color: black;
+    text-decoration: none;
+}
 
 /* -------------------------------- Media Queries */
 

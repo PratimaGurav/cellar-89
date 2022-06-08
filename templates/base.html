@@ -45,7 +45,7 @@
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
                 <form method="GET" action="">
                     <div class="input-group w-100">
-                        <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="Search our site">
+                        <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="What are you looking for?">
                         <div class="input-group-append">
                             <button class="form-control btn btn-black border border-black rounded-0" type="submit">
                                 <span class="icon">
@@ -119,6 +119,50 @@
     {% block postloadjs %}
     {% endblock %}
 
-    
+<!-- Footer -->
+<footer class="font-small mt-auto">
+    <div class="container">
+        <section class="footer">
+            <div class="row">
+              <div class="col-12 page-header mb-4">
+                <h2 class="text-uppercase">Stay in touch:</h2>
+                <hr class="block-divider block-divider--short">
+              </div>
+           </div>
+           <div class="row">
+             <div class="col-12 col-md-6">
+               <h3>Social</h3>
+               <p>Keep up to date with all our latest offers</p>
+               <a href="#" target="_blank"><i class="fab fa-facebook-square"></i> Follow us on Facebook!</a>
+             </div>
+             <div class="col-12 col-md-6">
+               <h2>Subscribe!</h2>
+               <p>Get exclusive offers and discount codes by subscribing to our monthly newsletter</p>
+               <!-- Mailchimp signup form here -->
+             </div>
+           </div>
+         </section>
+    </div>
+    <div class="col-12 text-center">
+        <!-- Footer links and modals -->
+        <p class="mb-0 pb-0">
+            <a href="#" class="font-weight-bold">
+                Contact
+            </a> | 
+            <a href="#" class="font-weight-bold" data-toggle="modal" data-target="#termsModal">
+                Terms of Use
+            </a> | 
+            <a href="#" class="font-weight-bold" data-toggle="modal" data-target="#privacyPolicyModal">
+                Privacy Policy
+            </a>
+        </p>
+        <p class="pb-2 pb-md-0">
+            &copy; Cellar'89 2022 
+        </p>
+    </div>
+</footer>
+
+
+
   </body>
 </html>
