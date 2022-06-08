@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-image: linear-gradient(to right top, #760a17, #770921, #770a2a, #750f33, #73143c);
+    background-color: #ee7272;
     background-size: cover;
     height: calc(100vh - 164px);
     color: black;
@@ -51,6 +51,16 @@ h1 h2 h3 h4 h5 h6 {
 
 .border-black {
     border: 1px solid black !important;
+}
+
+.overlay {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	position: fixed;
+	background: white;
+	z-index: -1;
 }
 
 /* -------------------------------- Media Queries */
