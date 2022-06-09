@@ -16,10 +16,10 @@
                 Type of Wine
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="types-of-wine-link">
-                <a href="" class="dropdown-item">Red Wine</a>
-                <a href="" class="dropdown-item">White Wine</a>
-                <a href="" class="dropdown-item">Sparkling Wine</a>
-                <a href="" class="dropdown-item">Champagne</a>
+                <a href="{% url 'products' %}?category=red_wine" class="dropdown-item">Red Wine</a>
+                <a href="{% url 'products' %}?category=white_wine" class="dropdown-item">White Wine</a>
+                <a href="{% url 'products' %}?category=sparkling_wine" class="dropdown-item">Sparkling Wine</a>
+                <a href="{% url 'products' %}?category=champagne" class="dropdown-item">Champagne</a>
             </div>
         </li>
 
@@ -28,11 +28,11 @@
                 Wine Country
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="wine-region-link">
-                <a href="" class="dropdown-item">France</a>
-                <a href="" class="dropdown-item">Italy</a>
-                <a href="" class="dropdown-item">Spain</a>
-                <a href="" class="dropdown-item">New Zealand</a>
-                <a href="" class="dropdown-item">Argentina</a>
+                <a href="{% url 'products' %}?category=france" class="dropdown-item">France</a>
+                <a href="{% url 'products' %}?category=italy" class="dropdown-item">Italy</a>
+                <a href="{% url 'products' %}?category=spain" class="dropdown-item">Spain</a>
+                <a href="{% url 'products' %}?category=new,zealand" class="dropdown-item">New Zealand</a>
+                <a href="{% url 'products' %}?category=argentina" class="dropdown-item">Argentina</a>
             </div>
         </li>
 
