@@ -46,13 +46,5 @@
         "name": "champagne",
         "friendly_name": "Champagne"
       }
-    },
-    {
-      "pk": 7,
-      "model": "products.category",
-      "fields": {
-        "name": "france",
-        "friendly_name": "France"
-      }
     }
   ]
