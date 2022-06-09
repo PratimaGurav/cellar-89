@@ -1,5 +1,8 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}">About Us</a>
+        </li> 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-wines-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 All Wines
@@ -7,6 +10,7 @@
             <div class="dropdown-menu border-0" aria-labelledby="all-wines-link">
                 <a href="" class="dropdown-item">By Price</a>
                 <a href="" class="dropdown-item ">By Grape Variety</a>
+                <a href="" class="dropdown-item ">By Country</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Wines</a>
             </div>
         </li>
@@ -20,19 +24,6 @@
                 <a href="{% url 'products' %}?category=white_wine" class="dropdown-item">White Wine</a>
                 <a href="{% url 'products' %}?category=sparkling_wine" class="dropdown-item">Sparkling Wine</a>
                 <a href="{% url 'products' %}?category=champagne" class="dropdown-item">Champagne</a>
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="wine-region-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Wine Country
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="wine-region-link">
-                <a href="{% url 'products' %}?category=france" class="dropdown-item">France</a>
-                <a href="{% url 'products' %}?category=italy" class="dropdown-item">Italy</a>
-                <a href="{% url 'products' %}?category=spain" class="dropdown-item">Spain</a>
-                <a href="{% url 'products' %}?category=new_zealand" class="dropdown-item">New Zealand</a>
-                <a href="{% url 'products' %}?category=argentina" class="dropdown-item">Argentina</a>
             </div>
         </li>
 
