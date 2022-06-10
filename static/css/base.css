@@ -8,6 +8,10 @@ body {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+h1 h2 h3 h4 h5 h6 {
+    font-family: 'Dancing Script', cursive !important;
+}
+
 .callout-container {
     height: 100vh;
     background: url('/media/wine-tank-room.jpeg') no-repeat bottom right fixed;
@@ -49,6 +53,7 @@ body {
     font-weight: bold;
     margin-bottom: 30px;
     color: #360000;
+    font-family: 'Dancing Script', cursive;
 }
 
 /* Block dividers */
@@ -70,10 +75,6 @@ body {
 
 .block-divider--short {
     width: 35px;
-}
-
-h1 h2 h3 h4 h5 h6 {
-    font-family: 'Dancing Script', cursive;
 }
 
 /* from Bulma */
@@ -108,6 +109,9 @@ h1 h2 h3 h4 h5 h6 {
     background-color: #ee7272!important;
 }
 
+#delivery-banner {
+    background-color: #ffb9b9!important;
+}
 
 .btn-black {
     background: black;
