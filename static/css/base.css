@@ -5,11 +5,71 @@ html {
 }
 
 body {
-    background: url('/media/wine-glasses.jpeg') no-repeat center center fixed;
-    background-size: cover;
-    height: calc(100vh - 164px);
-    color: black;
     font-family: 'Josefin Sans', sans-serif;
+}
+
+.callout-container {
+    height: 100vh;
+    background: url('/media/wine-tank-room.jpeg') no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: #ffb9b9;
+}
+
+.jumbotron h1 {
+    color: #360000;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #360000;
+}
+
+/* Block dividers */
+
+.block-divider {
+    width: 200px;
+    height: 2px;
+    border: 0;
+    background-color:  #444;
+}
+
+.block-divider--red {
+    background-color: #6d0202;
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+.block-divider--short {
+    width: 35px;
 }
 
 h1 h2 h3 h4 h5 h6 {
