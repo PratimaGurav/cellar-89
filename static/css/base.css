@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    background-color: #ffb9b9;
+    background-image: linear-gradient(to left bottom, #ee7272, #dc5d5b, #ca4844, #b7322e, #a31818);
     background-size: cover;
     height: calc(100vh - 164px);
     color: black;
