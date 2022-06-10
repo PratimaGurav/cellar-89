@@ -8,9 +8,9 @@
                 All Wines
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-wines-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Grape Variety</a>
-                <a href="" class="dropdown-item ">By Country</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'products' %}?sort=country&direction=asc" class="dropdown-item ">By Country</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Wines</a>
             </div>
         </li>
@@ -32,9 +32,9 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">Discounts</a>
-                <a href="" class="dropdown-item">Wine Packages</a>
-                <a href="" class="dropdown-item">All Offers</a>
+                <a href="{% url 'products' %}?category=discounts" class="dropdown-item">Discounts</a>
+                <a href="{% url 'products' %}?category=wine_packages" class="dropdown-item">Wine Packages</a>
+                <a href="{% url 'products' %}?category=discounts,wine_packages" class="dropdown-item">All Offers</a>
             </div>
         </li>
     </ul>
