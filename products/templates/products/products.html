@@ -54,8 +54,8 @@
                     {% if not products %}
                     <!-- Let users know if no results were found and display a button to all products -->
                     <div class="col-12 col-md-6 col-lg-4 mt-4">
-                        <p class="lead text-black">Sorry, no results found.</p>
-                        <a href="{% url 'products' %}" class="btn btn-block btn-orange btn-lg my-2">Back To All Wines</a>
+                        <h4 class="lead text-black"><strong>Sorry,</strong> no results found.</h4>
+                        <a href="{% url 'products' %}" class="btn btn-warning btn-lg">All Wines</a>
                     </div>
                     {% endif %}
                     {% for product in products %}
