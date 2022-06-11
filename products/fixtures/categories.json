@@ -19,12 +19,20 @@
       "pk": 3,
       "model": "products.category",
       "fields": {
+        "name": "rose_wine",
+        "friendly_name": "Rosé Wine"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.category",
+      "fields": {
         "name": "discounts",
         "friendly_name": "Discounts"
       }
     },
     {
-      "pk": 4,
+      "pk": 5,
       "model": "products.category",
       "fields": {
         "name": "wine_packages",
@@ -32,7 +40,7 @@
       }
     },
     {
-      "pk": 5,
+      "pk": 6,
       "model": "products.category",
       "fields": {
         "name": "sparkling_wine",
@@ -40,7 +48,7 @@
       }
     },
     {
-      "pk": 6,
+      "pk": 7,
       "model": "products.category",
       "fields": {
         "name": "champagne",
