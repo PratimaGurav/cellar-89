@@ -6,6 +6,10 @@ html {
 
 body {
     font-family: 'Josefin Sans', sans-serif;
+    /*-- the following settings to keep footer at bottom of page --*/
+    min-height:150vh;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 h2 h3 h4 h5 h6 {
@@ -184,6 +188,25 @@ a.category-badge > span.badge:hover {
 .btt-link {
     cursor: pointer;
 }
+
+
+/*---------- FOOTER ----------*/
+
+footer {
+    margin-top: auto;  
+    width:100%;
+    color: black;
+}
+  
+#footer-external-links> a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem ;
+}
+  
+#footer-external-links> a:hover {
+    color: #ee7272;
+}  
 
 /* -------------------------------- Media Queries */
 
