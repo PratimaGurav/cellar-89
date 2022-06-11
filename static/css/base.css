@@ -113,6 +113,10 @@ h1 h2 h3 h4 h5 h6 {
     background-color: #ffb9b9!important;
 }
 
+.badge {
+    font-size: 95% !important;
+}
+
 .btn-black {
     background: black;
     color: white;
