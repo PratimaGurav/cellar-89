@@ -21,9 +21,10 @@
             <div class="dropdown-menu border-0" aria-labelledby="types-of-wine-link">
                 <a href="{% url 'products' %}?category=red_wine" class="dropdown-item">Red Wine</a>
                 <a href="{% url 'products' %}?category=white_wine" class="dropdown-item">White Wine</a>
+                <a href="{% url 'products' %}?category=rose_wine" class="dropdown-item">Rosé Wine</a>
                 <a href="{% url 'products' %}?category=sparkling_wine" class="dropdown-item">Sparkling Wine</a>
                 <a href="{% url 'products' %}?category=champagne" class="dropdown-item">Champagne</a>
-                <a href="{% url 'products' %}?category=red_wine,white_wine,sparkling_wine,champagne" class="dropdown-item">All Wines</a>
+                <a href="{% url 'products' %}?category=red_wine,white_wine,rose_wine,sparkling_wine,champagne" class="dropdown-item">All Wines</a>
             </div>
         </li>
 
