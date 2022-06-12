@@ -75,6 +75,12 @@
                             </div>
                         </div>
                         <p class="mt-2">{{ review.user_review }}</p>
+                        {% if request.user == review.user or request.user.is_superuser %}
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#">
+                            Delete Review
+                        </button>
+                        {% endif %}
+                        <hr>
                     <!-- Our for loop ends here -->
                     {% endfor %}
                 </section>

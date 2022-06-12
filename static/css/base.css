@@ -190,8 +190,7 @@ a.category-badge > span.badge:hover {
 }
 
 .review-box {
-    height: 25vh;
-    width: 70vh;
+    height: 30vh;
     border-radius: 15px;
     padding: 10px;
     background: #ffb9b9;
@@ -199,8 +198,7 @@ a.category-badge > span.badge:hover {
 }
 
 .review-form {
-    height: 65vh;
-    width: 70vh;
+    height: 50vh;
     border-radius: 15px;
     padding: 10px;
     background: #ffb9b9;
