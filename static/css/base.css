@@ -194,13 +194,18 @@ a.category-badge > span.badge:hover {
     width: 70vh;
     border-radius: 15px;
     padding: 10px;
-    box-shadow: inset 0 -5px 5px black;
     background: #ffb9b9;
-    transition: all .3s ease-in-out;
-    border: 2px solid #6d0202;
-    margin-top: 1rem;
+    border: 1px solid #6d0202;
 }
 
+.review-form {
+    height: 65vh;
+    width: 70vh;
+    border-radius: 15px;
+    padding: 10px;
+    background: #ffb9b9;
+    border: 1px solid #6d0202;
+}
 
 /*---------- FOOTER ----------*/
 
