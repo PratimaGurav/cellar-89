@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 {% load static %}
 
+{% load crispy_forms_tags %}
+
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -51,19 +53,52 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-8 card mb-4  mt-3 ">
-            <h3>Reviews:</h3>
-            <div class="card-body">
-              {% if not reviews.all %}
-                    No Reviews Yet... <a href="#">Add One</a>
-              {% else %}
-                    {% for review in reviews.all %}
-                    {{ review.title }}
-                    {{ review.user }} | {{ review.created_on }}
-                    {{ user.review }}
+        <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
+            <h3 class="text-black">Reviews</h3>
+            {% if reviews %}
+                <section class="review-box mb-3">
+                    <!-- Loop over the reviews -->
+                    {% for review in reviews %}
+                        <div class="row">
+                            <div class="col-6">
+                                <p class="text-black">Title: {{ review.title }}</p>
+                            </div>
+                            <div class="col-6">
+                                <!-- Product rating is updated for each review -->
+                                <p class="text-black text-right"><i class="fas fa-star"></i>Ratings: {{ review.product_rating }}/5</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <!-- If user has removed their account, "Account removed" will be displayed instead of the users username -->
+                                <small class="text-black">{% if not review.user == None %}{{ review.user }}{% else %}Account removed{% endif %} | {{ review.created_on }}</small>
+                            </div>
+                        </div>
+                        <p class="mt-2">{{ review.user_review }}</p>
                     <!-- Our for loop ends here -->
-                    {% endfor %}                       
-              {% endif %}
+                    {% endfor %}
+                </section>
+            {% endif %}
+            </div>
+        </div>        
+        <div class="col-12 col-md-6 col-lg-4">
+            {% if request.user.is_authenticated %}
+            <!-- Review form -->
+                <section class="review-form">
+                    {% if reviews %}
+                    <h3 class="lead text-black">Review this product</h3>
+                    {% else %}
+                    <h3 class="lead text-black">Be the first to review this product</h3>
+                    {% endif %}
+                    <form method="POST" action="{% url 'product_detail' product.id %}">
+                        {% csrf_token %}
+                        {{ review_form|crispy }}
+                        <button class="w-100 btn btn-orange" type="submit">Post Review</button>
+                    </form>
+                </section>
+            {% else %}
+                <h4 class="lead">Please <a href="{% url 'account_login' %}" class="font-weight-bold">login</a> to post a review.</h4>
+            {% endif %}
         </div>
 
 

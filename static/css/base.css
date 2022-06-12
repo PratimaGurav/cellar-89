@@ -182,11 +182,23 @@ a.category-badge > span.badge:hover {
     position: fixed;
     bottom: 10px;
     right: 10px;
-    border: 1px solid #6d0202;
+    border: 2px solid #6d0202;
 }
 
 .btt-link {
     cursor: pointer;
+}
+
+.review-box {
+    height: 25vh;
+    width: 70vh;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: inset 0 -5px 5px black;
+    background: #ffb9b9;
+    transition: all .3s ease-in-out;
+    border: 2px solid #6d0202;
+    margin-top: 1rem;
 }
 
 
