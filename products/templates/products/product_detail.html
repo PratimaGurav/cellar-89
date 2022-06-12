@@ -80,7 +80,6 @@
                             Delete Review
                         </button>
                         {% endif %}
-                        <hr>
                     <!-- Our for loop ends here -->
                     {% endfor %}
                 </section>
@@ -103,7 +102,9 @@
                     </form>
                 </section>
             {% else %}
-                <h4 class="lead">Please <a href="{% url 'account_login' %}" class="font-weight-bold">login</a> to post a review.</h4>
+                <div class="row align-items-start">
+                    <h4 class="lead">Please <a href="{% url 'account_login' %}" class="font-weight-bold">login</a> to post a review.</h4>
+                </div>
             {% endif %}
         </div>
 
