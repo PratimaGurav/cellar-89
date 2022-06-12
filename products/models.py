@@ -35,6 +35,14 @@ class Product(models.Model):
 
 
 class Review(models.Model):
+
+    RATING_CHOICES = [ 
+        (5, '5'),
+        (4, '4'),
+        (3, '3'),
+        (2, '2'),
+        (1, '1'),
+    ]
     user = models.ForeignKey(
         User,
         null=True,
@@ -45,17 +53,17 @@ class Review(models.Model):
         on_delete=models.CASCADE
     )
     product_rating = models.IntegerField(
-        # choices=RATING_CHOICES,
+        choices=RATING_CHOICES,
         default=5
     )
     title = models.CharField(
-        # verbose_name=_('Review Title'),
+        verbose_name=('Review Title'),
         max_length=25,
         null=False,
         blank=False
     )
     user_review = models.TextField(
-        # verbose_name=_('User Review'),
+        verbose_name=('User Review'),
         max_length=250,
         null=False,
         blank=False
