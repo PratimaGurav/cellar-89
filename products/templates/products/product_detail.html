@@ -50,4 +50,24 @@
             </div>
         </div>
     </div>
+    <div class="row">
+        <div class="col-md-8 card mb-4  mt-3 ">
+            <h3>Reviews:</h3>
+            <div class="card-body">
+              {% if not reviews.all %}
+                    No Reviews Yet... <a href="#">Add One</a>
+              {% else %}
+                    {% for review in reviews.all %}
+                    {{ review.title }}
+                    {{ review.user }} | {{ review.created_on }}
+                    {{ user.review }}
+                    <!-- Our for loop ends here -->
+                    {% endfor %}                       
+              {% endif %}
+        </div>
+
+
+    </div>
+
+
 {% endblock %}
