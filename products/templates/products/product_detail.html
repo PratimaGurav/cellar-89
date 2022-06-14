@@ -76,10 +76,15 @@
                         </div>
                         <p class="mt-2">{{ review.user_review }}</p>
                         {% if request.user == review.user or request.user.is_superuser %}
-                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#">
+                        <!-- <h4>
+                            <a href="{% url 'delete_review' review.id %}" role="button" class="btn btn-danger py-3">Delete Review</a>
+                        </h4> -->
+                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#deleteReviewModal{{ review.id }}">
                             Delete Review
                         </button>
                         {% endif %}
+                        <!-- Modal to confirm review deletion -->
+                        {% include 'products/includes/delete_review_modal.html' %}
                     <!-- Our for loop ends here -->
                     {% endfor %}
                 </section>

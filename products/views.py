@@ -1,4 +1,6 @@
-from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
+from django.shortcuts import (
+    render, redirect, reverse, get_object_or_404, HttpResponse
+)
 from django.contrib import messages
 from django.db.models import Q
 from django.db.models.functions import Lower
@@ -100,15 +102,6 @@ def product_detail(request, product_id):
     return render(request, 'products/product_detail.html', context)    
 
 def delete_review(request, review_id):
-    """
-    Removes a product on the site
-    Args:
-        request (object)
-        product_id (to get instance of the product to edit)
-    Returns:
-        the delete product page with the form and context.
-    """
-
     review = get_object_or_404(Review, pk=review_id)
     product = review.product
 
@@ -121,8 +114,14 @@ def delete_review(request, review_id):
             )
         )
 
-    except Exception as e:  # pylint: disable=broad-except, invalid-name
+    except Exception as e:
         messages.error(request, f'Error removing review: {e}')
         return HttpResponse(status=500)
 
-    return redirect(reverse('product_detail', args=[product.id]))
+    # return redirect(reverse('product_detail', args=[product.id]))
+    context = {
+        'product': product,
+        'delete_review': delete_review,
+    }
+
+    return render(request, 'products/product_detail.html', context)
