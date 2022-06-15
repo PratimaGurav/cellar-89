@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-$7wqj^(-qhdlhlm6=336a#i*t605uvl%ac__6weo6l%mq80==d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['cellar-89.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -107,16 +107,17 @@ WSGI_APPLICATION = 'wine_cellar.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
-}
-
-# DATABASES = {
-#     'default': dj_database_url.parse('postgres://bflerrwoyoikri:dea1c7d06f34a94849ac8c5d673b7c813b4b996e860678b62e1d1eff497c97c6@ec2-54-228-218-84.eu-west-1.compute.amazonaws.com:5432/d7ftl47l1iv8h9')
-# }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
