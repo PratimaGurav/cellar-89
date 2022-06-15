@@ -1,1 +1,1 @@
-web: gunicorn cellar-89.wsgi:application
+web: gunicorn CELLAR-89.wsgi:application
