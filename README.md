@@ -6,7 +6,7 @@
 
 # About 
 
-Cellar 89 is an online webshop where you can find an extensive selection of quality wines from Italy, France and many other wine countries. 
+Cellar 89 is an online webshop where you can find an extensive selection of quality wines from France, Italy and many other wine countries. 
 
 
 # Target Audience
@@ -66,7 +66,7 @@ The site is targetted to people above 18 years and for Wine Lovers who have basi
     ![Color Palette]()
 
   - #### Typography
-    Raleway italic font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat italic is used for headings with Sans Serif as the fallback.  
+    [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans?query=josefin+sans) font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. [Dancing Script](https://fonts.google.com/specimen/Dancing+Script?query=dancing+script) is used for headings with cursive as the fallback.  
 
   - #### Wireframes
     Balsamiq was used to create wireframes for mobile, tablet/ipad and desktop.
