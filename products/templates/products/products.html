@@ -59,7 +59,7 @@
                     </div>
                     {% endif %}
                     {% for product in products %}
-                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 h-100">
                             <div class="card border-0">
                                 {% if product.image %}
                                 <a href="{% url 'product_detail' product.id %}">
@@ -70,13 +70,10 @@
                                     <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
                                 </a>
                                 {% endif %}
-                                <div class="card-body pb-0">
-                                    <p class="mb-0">{{ product.name }}</p>
-                                    <p class="mb-0 text-muted">{{ product.country }}</p>
-                                </div>
                                 <div class="card-footer bg-white pt-0 border-0 text-left">
                                     <div class="row">
                                         <div class="col">
+                                            <p class="mb-0">{{ product.name }}</p>
                                             <p class="lead mb-0 text-left font-weight-bold">€{{ product.price }}</p>
                                             {% if product.category %}
                                             <p class="small mt-1 mb-0">
@@ -90,6 +87,7 @@
                                             {% else %}
                                                 <small class="text-muted">No Rating</small>
                                             {% endif %}
+                                            <p class="small text-muted">{{ product.country }} | 75CL</p>
                                         </div>
                                     </div>
                                 </div>
