@@ -165,3 +165,19 @@
         </div>
     </div>
 {% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+    <!-- Load stripe JavaScript files -->
+    {{ stripe_public_key|json_script:"id_stripe_public_key" }}
+    {{ client_secret|json_script:"id_client_secret" }}
+    <script src="{% static 'checkout/js/stripe_elements.js' %}"></script>
+    <script>
+        // Script to animate the arrow in the summary dropdown on mobile
+        $(document).ready(function() {
+            $('#order-s-toggler').click(function() {
+                $('.fa-angle-down').toggleClass('rotate');
+            });
+        });
+    </script>
+{% endblock %}
