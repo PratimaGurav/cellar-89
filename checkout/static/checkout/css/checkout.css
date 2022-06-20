@@ -35,3 +35,12 @@
     color: #000;
     border: 1px solid #000;
 }
+
+.checkout-col {
+  width: 80%;
+  background: #ffb9b9;
+  border: 1px solid #6d0202;
+  backdrop-filter: blur(1px);
+  border-radius: 15px;
+  margin: 0 .8rem;
+}

@@ -25,4 +25,122 @@
             </div>
         </div>
     </div>
+
+    <div class="row my-5">
+        <div class="checkout-col mx-auto mw-lg row">
+            <div class="col-12 col-md-6">
+                <div class="order-confirmation-wrapper">
+                    <div class="row my-3">
+                        <div class="col">
+                            <h6 class="text-black">Order Info:</h6>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="mb-0 font-weight-bold">Order Number: <span class="float-right">{{ order.order_number }}</span></p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="mb-0 font-weight-bold">Order Date: <span class="float-right">{{ order.date }}</span></p>
+                        </div>
+                    </div>
+
+                    <div class="row my-3">
+                        <div class="col">
+                            <h6 class="text-black">Order Details</h6>
+                        </div>
+                    </div>
+
+                    {% for item in order.lineitems.all %}
+                    <div class="row">
+                        <div class="col-12 col-md-7">
+                            <p class="mb-0 text-black font-weight-bold">{{ item.product.name }}</p>
+                        </div>
+                        <div class="col-12 col-md-5 text-md-right">
+                            <p class="mb-0 mr-2">{{ item.quantity }} @ €{{ item.product.price }} each 
+                            </p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                    <div class="row my-3">
+                        <div class="col">
+                            <h6 class="text-black">Billing Info</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="mb-0 font-weight-bold">Order Total: <span class="float-right">€{{ order.order_total }}</span></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="mb-0 font-weight-bold">Delivery Cost: <span class="mb-0">€{{ order.delivery_cost }}</span></p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 my-3">
+                            <p class="mb-0 lead text-black font-weight-bold">Grand Total: <span class="float-right">€{{ order.grand_total }}</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6">
+                <div class="order-confirmation-wrapper mb-3">
+                    <div class="row my-3">
+                        <div class="col">
+                            <h6 class="text-black">Delivering To:</h6>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="mb-0 font-weight-bold">Full Name: <span class="float-right">{{ order.full_name }}</span></p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="mb-0 font-weight-bold">Address: <span class="float-right">{{ order.street_address1 }}</span></p>
+                            {% if order.street_address2 %}<p class="float-right">{{ order.street_address1 }}</p>{% endif %}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="mb-0 text-black font-weight-bold">Town/City: <span class="float-right">{{ order.town_or_city }}</span></p>
+                        </div>
+                    </div>
+
+                    {% if order.county %}
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="mb-0 font-weight-bold">County: <span class="float-right">{{ order.county }}</span></p>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    {% if order.postcode %}
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="mb-0 text-black font-weight-bold">Postal Code: <span class="float-right">{{ order.postcode }}</span></p>
+                        </div>
+                    </div>
+                    {% endif %}
+
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="mb-0 text-black font-weight-bold">Country<span class="float-right">{{ order.country }}</span></p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="mb-0 text-black font-weight-bold">Phone Number: <span class="float-right">{{ order.phone_number }}</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 {% endblock %}
