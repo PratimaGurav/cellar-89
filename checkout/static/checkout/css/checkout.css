@@ -36,6 +36,26 @@
     border: 1px solid #000;
 }
 
+#loading-overlay {
+	display: none;
+	position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(163,24,24);
+  z-index: 9999;
+}
+
+.loading-spinner {
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+}
+
 .checkout-col {
   width: 80%;
   background: #ffb9b9;
