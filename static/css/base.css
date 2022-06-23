@@ -312,7 +312,8 @@ footer {
 
 .allauth-form-inner-content input {
     border-color: #000;
-    border-radius: 0;
+    border-radius: 1px;
+    margin: 0 5rem 0 0;
 }
 
 .allauth-form-inner-content label:not([for='id_remember']) {
