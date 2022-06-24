@@ -16,6 +16,8 @@
   {{ form|crispy }}  
   {% if redirect_field_value %}
   <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+  {% else %}
+  <input name="date_of_birth" type="date">
   {% endif %}
   <button type="submit">{% trans "Sign Up" %}</button>
 </form>

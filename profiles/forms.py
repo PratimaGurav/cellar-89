@@ -1,6 +1,8 @@
 from django import forms
 from .models import UserProfile
 
+from allauth.account.forms import SignupForm
+from datetime import date
 
 class UserProfileForm(forms.ModelForm):
     class Meta:
@@ -32,3 +34,18 @@ class UserProfileForm(forms.ModelForm):
                 self.fields[field].widget.attrs['placeholder'] = placeholder
             self.fields[field].widget.attrs['class'] = 'border-black rounded-1 profile-form-input'
             self.fields[field].label = False
+
+
+class CustomSignUpForm(SignupForm):
+    date_of_birth = forms.DateField()
+
+    def clean_birthday(self):
+        dob = self.cleaned_data['date_of_birth']
+        today = date.today()
+        if (dob.year + 18, dob.month, dob.day) > (today.year, today.month, today.day):
+            raise forms.ValidationError('You must be at least 18 years old to register')
+        return dob
+
+    class Meta:
+        model = UserProfile
+        fields = ('date_of_birth')
