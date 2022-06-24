@@ -6,9 +6,9 @@
 
 {% block inner_content %}
 <h2 class="logo-font m-2 text-center">{% trans "Sign Up" %}</h2>
-<small>You must be over 18 to sign up to our service. Please, drink responsibly.</small>
+<small class="ml-5">You must be over 18 to sign up to our service. Please, drink responsibly.</small>
 
-<p>{% blocktrans %}Already have an account? Then please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}
+<p class="text-center">{% blocktrans %}Already have an account? Then please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}
 </p>
 
 <form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
