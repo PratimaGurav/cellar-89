@@ -94,9 +94,9 @@ $(document).ready(function () {
       document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
     }
 
-    // Compares age entered with todays date 21 years ago...
+    // Compares age entered with todays date 18 years ago...
     function oldEnough() {
-      var ageLimit = moment().subtract(21, 'years').calendar();
+      var ageLimit = moment().subtract(18, 'years').calendar();
       var birthDate = age.month + " " + age.day + " " + age.year;
       var oldEnough = moment(birthDate, "MM DD YYYY").isBefore(ageLimit, 'day');
 
