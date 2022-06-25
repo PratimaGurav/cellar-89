@@ -95,6 +95,10 @@ TEMPLATES = [
     },
 ]
 
+ACCOUNT_FORMS = {
+    'signup': 'wine_cellar.forms.CustomSignupForm',
+}
+
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
 AUTHENTICATION_BACKENDS = [
