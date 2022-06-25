@@ -1,5 +1,8 @@
 from allauth.account.forms import SignupForm
 from datetime import date
+from django import forms
+from django.contrib.auth.models import User
+from django.contrib.auth.forms import UserCreationForm
 
 class CustomSignUpForm(SignupForm):
     date_of_birth = forms.DateField()
@@ -12,5 +15,5 @@ class CustomSignUpForm(SignupForm):
         return dob
 
     class Meta:
-        model = get_user_model()
+        model = User
         fields = ('date_of_birth')

@@ -2,8 +2,7 @@ from django.shortcuts import render, get_object_or_404
 from django.contrib import messages
 
 from .models import UserProfile
-from .forms import UserProfileForm, CustomSignUpForm
-
+from .forms import UserProfileForm
 
 def profile(request):
     """ Display the user's profile. """
@@ -22,7 +21,6 @@ def profile(request):
     context = {
         'form': form,
         'orders': orders,
-        'birthdays': birthday,
         'on_profile_page': True
     }
 
