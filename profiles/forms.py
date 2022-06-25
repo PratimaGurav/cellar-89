@@ -1,9 +1,6 @@
 from django import forms
 from .models import UserProfile
 
-from allauth.account.forms import SignupForm
-from datetime import date
-
 class UserProfileForm(forms.ModelForm):
     class Meta:
         model = UserProfile
