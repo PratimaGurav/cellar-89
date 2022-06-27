@@ -2,7 +2,7 @@ from django import forms
 from django.forms import (
     Textarea, Select, ModelForm, CharField
 )
-from django.core.exceptions import ValidationError
+from .widgets import CustomClearableFileInput
 from .models import Review, Product, Category
 
 
@@ -41,6 +41,8 @@ class ProductForm(forms.ModelForm):
     class Meta:
         model = Product
         fields = '__all__'
+
+    image = forms.ImageField(label='Image', required=False, widget=CustomClearableFileInput)
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
