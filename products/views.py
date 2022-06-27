@@ -1,11 +1,13 @@
 from django.shortcuts import (
     render, redirect, reverse, get_object_or_404, HttpResponse
 )
+from django.http import Http404
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
+from profiles.models import FavoriteItem
 from .models import Product, Category, Review
 from .forms import ReviewForm, ProductForm
 
@@ -15,6 +17,7 @@ def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
     products = Product.objects.all()
+    favorites = FavoriteItem.objects.filter(user=request.user.id)
     query = None
     categories = None
     sort = None
@@ -56,6 +59,7 @@ def all_products(request):
         'products': products,
         'search_term': query,
         'current_categories': categories,
+        'favorites': favorites,
         'current_sorting': current_sorting,
     }
 
@@ -65,6 +69,13 @@ def product_detail(request, product_id):
     """ A view to show individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
+    try:
+        favoritesitem = FavoriteItem.objects.create(user=request.user)
+    except Http404:
+        favoritesitem = {}
+        favorites = None
+    else:
+        favorites = favoritesitem.product.all()       
 
     reviews = Review.objects.filter(product=product)
 
@@ -96,6 +107,7 @@ def product_detail(request, product_id):
 
     context = {
         'product': product,
+        'favorites': favorites,
         'reviews': reviews,
         'review_form': review_form,
     }
