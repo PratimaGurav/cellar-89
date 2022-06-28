@@ -271,6 +271,15 @@ a.category-badge > span.badge:hover {
     border: 1px solid #6d0202;
 }
 
+.review-modal-body {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
 /* Product Form */
 
 .btn-file {
@@ -305,29 +314,29 @@ a.category-badge > span.badge:hover {
     background: transparent;
 }
 
-/*-----MODAL --------*/
+/*-----Age Verification Modal--------*/
 
 .modal-backdrop {
     opacity: 0.75 !important;
-}
+  }
 
-.age-modal-body {
+  .modal-body {
     position: relative;
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     padding: 1.5rem;
-    background: #a31818;
+    background: #ee7272;
     border: 1px solid #c8b328;
     text-align: center;
-}
+  }
 
-@media (max-width:768px) {
+  @media (max-width:768px) {
     .mobile-margin-bottom{
       margin-bottom:.5rem;
     }
     
-}
+  }
 
 /*---------- FOOTER ----------*/
 
