@@ -299,6 +299,11 @@ a.category-badge > span.badge:hover {
     border-radius: 1;
 }
 
+.btn-wish {
+    color: #EB4C42;
+    border: none;
+    background: transparent;
+}
 
 /*-----AGE VERIFICATION MODAL --------*/
 

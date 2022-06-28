@@ -7,6 +7,7 @@ from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
 
+from profiles.models import WishListItem
 from .models import Product, Category, Review
 from .forms import ReviewForm, ProductForm
 
@@ -17,6 +18,7 @@ def all_products(request):
     """ A view to show all products, including sorting and search queries """
 
     products = Product.objects.all()
+    wishlist = WishListItem.objects.filter(user=request.user.id)
     query = None
     categories = None
     sort = None
@@ -58,6 +60,7 @@ def all_products(request):
         'products': products,
         'search_term': query,
         'current_categories': categories,
+        'wishlist': wishlist,
         'current_sorting': current_sorting,
     }
 
@@ -66,7 +69,14 @@ def all_products(request):
 def product_detail(request, product_id):
     """ A view to show individual product details """
 
-    product = get_object_or_404(Product, pk=product_id)     
+    product = get_object_or_404(Product, pk=product_id)
+    try:
+        wishlistitem = get_object_or_404(WishListItem, user=request.user.id)
+    except Http404:
+        wishlistitem = {}
+        wishlist = None
+    else:
+        wishlist = wishlistitem.product.all()  
 
     reviews = Review.objects.filter(product=product)
 
@@ -100,6 +110,7 @@ def product_detail(request, product_id):
         'product': product,
         'reviews': reviews,
         'review_form': review_form,
+        'wishlist': wishlist,
     }
 
     return render(request, 'products/product_detail.html', context)    

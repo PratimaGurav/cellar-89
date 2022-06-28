@@ -52,9 +52,25 @@
                             <a href="{% url 'edit_product' product.id %}">Edit</a> | 
                             <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
                         </small>
-                    {% endif %}
+                    {% endif %}             
                   
                     <p class="mt-3"><strong>Description: </strong>{{ product.description }}</p>
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <!-- If user is logged in and has item in wishlist, this is visible on the button -->
+                            {% if request.user.is_authenticated %}
+                                {% if product in wishlist %}
+                                    <a href="{% url 'remove_from_wishlist' product.id %}" aria-label="Remove product from Wishlist" class="w-100 btn inline btn-outline-dark"><i class="fas fa-heart btn-wish"></i> Remove from Favorites</a>
+                                {% else %}
+                                    <a href="{% url 'add_to_wishlist' product.id %}" aria-label="Add product to Wishlist" class="w-100 btn inline btn-outline-dark"><i class="far fa-heart btn-wish"></i> Add to Favorites</a>
+                                {% endif %}
+                            {% else %}
+                            <!-- Redirected user to sign in page to add item to wishlist-->
+                                <a href="{% url 'account_login' %}" aria-label="Sign In" class="w-100 btn inline btn-outline-dark"><i class="far fa-heart btn-wish"></i> Add to Favorites</a>
+                            {% endif %}
+
+                        </div>
+                    </div>
                     <form class="form" action="{% url 'add_to_cart' product.id %}" method="POST">
                         {% csrf_token %}
                         <div class="form-row">
