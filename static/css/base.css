@@ -278,7 +278,61 @@ a.category-badge > span.badge:hover {
     flex: 1 1 auto;
     padding: 1.5rem;
     text-align: center;
-  }
+}
+
+/*---------- CONTACT US PAGE ----------*/
+.contact__main--container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffb9b9;
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
+    border-radius: 0.25em;
+    padding: 1.2rem 1rem;
+    width: 100%;
+    max-width: 50rem;
+    margin-left: 20rem;
+    margin-top: 5rem;
+}
+  
+.container.contact-form {
+    width: 95% !important;
+}
+  
+.contact-form .form-control {
+    border-radius: 1rem;
+    margin-bottom: 10px;
+}
+  
+.contact-form form {
+    padding-bottom: 10%;
+}
+  
+.contact-form form .row {
+    margin-bottom: -7%;
+}
+  
+.contact-form h2 {
+    color: white;
+    margin-bottom: 10%;
+    margin-top: -10%;
+    text-align: center;
+}
+  
+.contact-form h3 {
+    color: white;
+    margin-bottom: 5%;
+    margin-top: -5%;
+    text-align: center;
+}
+  
+.contact__main--container h3 {
+    margin-bottom: 3vh;
+    font-size: 1.2rem;
+    color: #353535;
+}    
+
 
 /* Product Form */
 
