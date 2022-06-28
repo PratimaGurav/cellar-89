@@ -133,7 +133,6 @@ def delete_review(request, review_id):
         messages.error(request, f'Error removing review: {e}')
         return HttpResponse(status=500)
 
-    # return redirect(reverse('product_detail', args=[product.id]))
     context = {
         'product': product,
         'delete_review': delete_review,
