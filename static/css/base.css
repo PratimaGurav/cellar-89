@@ -362,6 +362,11 @@ a.category-badge > span.badge:hover {
     border-radius: 1;
 }
 
+/*-----Wishlist--------*/
+
+.wishlist {
+    margin-left: 20rem;
+}
 .btn-wish {
     color: #EB4C42;
     border: none;
