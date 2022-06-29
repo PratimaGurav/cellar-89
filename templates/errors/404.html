@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_title %}Error{% endblock %}
+
+{% block page_header %}
+    <div class="container header-container mt-5">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="error-container mt-5">
+        <div class="row">
+            <div class="col text-center mt-5">
+                <h2 class="logo-font">Error 404<i class="fa-solid fa-wine-glass-crack"></i></h2>
+                <h3 class="text-black">Oops - The page you requested doesn't exist.</h3>
+                <p>Please click <a href="{% url 'home' %}" alt="Go to home page"><em>here</em></a> to return to the home page.</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+{% endblock %}
