@@ -99,12 +99,6 @@ h1 h2 h3 h4 h5 h6 {
     width: fit-content;
 }
 
-/*--Error--*/
-.error-container {
-    padding: 10rem;
-    margin: 5rem;
-}
-
 /*--NavBar--*/
 .nav-link {
     font-size: 15px !important;
