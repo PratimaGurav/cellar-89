@@ -51,11 +51,13 @@
                                     <td>{{ wishlist_items|length}}</td>
                                     <td>€{{ item.price }}</td>
                                     <td>
-                                        <button type="button" class="btn btn-danger">
+                                        <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#removeFromWishListModal{{ item.id }}">
                                             Delete
                                         </button>
                                     </td>
                                 </tr>
+                            <!-- Wishlist remove modal -->
+                            {% include 'profiles/includes/remove_from_wishlist_modal.html' %}                                
                             {% endfor %}
                         </tbody>
                     </table>
