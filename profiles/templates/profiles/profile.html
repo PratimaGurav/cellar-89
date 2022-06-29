@@ -24,8 +24,43 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12">
-                <h3 class="text-black">My Wishlist ({{ wishlist_items|length}})</h3>
+            <div class="col-12 col-lg-6">
+                <h3 class="text-black">My Wishlist</h3>
+                {% if not wishlist_items %}
+                    <p class="text-white">There are no bottles in your wishlist yet.</p>
+                {% else %}                
+                <div class="table-responsive">
+                    <table class="table table-sm table-borderless">
+                        <thead>
+                            <tr>
+                                <th>Items</th>
+                                <th>Number of Items</th>
+                                <th>Price</th>
+                                <th>Remove Item</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for item in wishlist_items %}
+                                <tr>
+                                    <td>
+                                        <a href="{% url 'product_detail' item.id %"
+                                        title="{{ item.name }}">
+                                             {{ item.name }}
+                                        </a>
+                                    </td>
+                                    <td>{{ wishlist_items|length}}</td>
+                                    <td>€{{ item.price }}</td>
+                                    <td>
+                                        <button type="button" class="btn btn-danger">
+                                            Delete
+                                        </button>
+                                    </td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% endif %}                         
             </div>
         </div>
         <div class="row">
