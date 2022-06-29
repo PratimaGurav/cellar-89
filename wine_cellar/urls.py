@@ -29,5 +29,5 @@ urlpatterns = [
     path('profile/', include('profiles.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-handler404 = 'group_chatting.views.handler404'
-handler500 = 'group_chatting.views.handler500'
+handler404 = 'wine_cellar.views.handler404'
+handler500 = 'wine_cellar.views.handler500'
