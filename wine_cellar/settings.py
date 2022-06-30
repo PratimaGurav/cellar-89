@@ -100,6 +100,17 @@ ACCOUNT_FORMS = {
     'signup': 'wine_cellar.forms.CustomSignupForm',
 }
 
+SOCIAL_ACCOUNT_PROVIDERS = {
+    'google': {
+        'SCOPE': ['profile', 'email'],
+        'AUTH_PARAMS': {'access_type': 'online'},
+        'APP': {
+            'CLIENT_ID': os.environ.get('GOOGLE_CLIENT_ID'),
+            'CLIENT_SECRET': os.environ.get('GOOGLE_CLIENT_SECRET'),
+        }
+    }
+}
+
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
 AUTHENTICATION_BACKENDS = [
