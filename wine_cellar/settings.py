@@ -121,7 +121,7 @@ AUTHENTICATION_BACKENDS = [
     'allauth.account.auth_backends.AuthenticationBackend',
 ]
 
-SITE_ID = 1
+SITE_ID = 4
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
