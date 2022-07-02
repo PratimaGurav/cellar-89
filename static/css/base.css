@@ -438,7 +438,7 @@ footer {
 
 .allauth-form-inner-content input {
     border-color: #000;
-    border-radius: 0;
+    border-radius: 1;
 }
 
 .allauth-form-inner-content label:not([for='id_remember']) {
@@ -477,6 +477,41 @@ footer {
 	color: #fff;
     background-color: #a31818;
     border-color: #a31818;
+}
+
+/*---Social account provider---*/
+.socialaccount_providers {
+    list-style:none;
+    background-image: url('/media/google.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    font-size: 1.2rem;
+    font-weight: 900;
+    background-color: white;
+    border-radius: 0.25rem;
+    border: 1px solid grey;
+    height: 3rem;
+    background-position: center;
+}
+
+.socialaccount_provider.google {
+    color: white;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    margin-left: 4rem;
+ 
+}
+
+.socialaccount_providers:hover {
+    background-color: #F5FFFA;
+}
+
+.login-or {
+    font-size: 1.5rem;
 }
 
 /* -------------------------------- Media Queries */

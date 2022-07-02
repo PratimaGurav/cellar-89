@@ -10,17 +10,17 @@
 {% get_providers as socialaccount_providers %}
 
 {% if socialaccount_providers %}
-<p>{% blocktrans with site.name as site_name %}Please sign in with one
-of your existing third party accounts. Or, <a href="{{ signup_url }}">sign up</a>
-for a {{ site_name }} account and sign in below:{% endblocktrans %}</p>
+<p class="text-center">{% blocktrans with site.name as site_name %}Please sign in with Google or with your existing user account
+:{% endblocktrans %}</p>
 
 <div class="socialaccount_ballot">
-
-  <ul class="socialaccount_providers">
+ 
+  <ul class="socialaccount_providers w3-panel w3-border w3-hover-border-black">
     {% include "socialaccount/snippets/provider_list.html" with process="login" %}
   </ul>
+  
 
-  <div class="login-or">{% trans 'or' %}</div>
+  <div class="login-or mb-2 text-center text-uppercase">{% trans 'or' %}</div>
 
 </div>
 
