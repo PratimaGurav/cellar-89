@@ -272,13 +272,23 @@ a.category-badge > span.badge:hover {
 }
 
 .review-modal-body,
-.remove_wishlist-modal-body {
+.remove_wishlist-modal-body,
+.delete-modal-body {
     position: relative;
     -webkit-box-flex: 1;
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
     padding: 1.5rem;
     text-align: center;
+}
+
+/*----Policies Modal----*/
+.policies-modal-body {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 2rem;
 }
 
 /*---------- CONTACT US PAGE ----------*/
@@ -378,7 +388,7 @@ a.category-badge > span.badge:hover {
 
 .modal-backdrop {
     opacity: 0.75 !important;
-  }
+}
 
   .modal-body {
     position: relative;
@@ -389,14 +399,14 @@ a.category-badge > span.badge:hover {
     background: #ee7272;
     border: 1px solid #c8b328;
     text-align: center;
-  }
+}
 
-  @media (max-width:768px) {
+@media (max-width:768px) {
     .mobile-margin-bottom{
       margin-bottom:.5rem;
     }
     
-  }
+}
 
 /*---------- FOOTER ----------*/
 
