@@ -21,7 +21,7 @@ The site is targetted to people above 18 years and for Wine Lovers who have basi
 
 # Marketing
 
-
+In addition to our target audience, our team aims to promote responsible alcohol consumption. The wine market is a highly competitive market due to many global and domestic companies operating in various countries hence we are delivering finest wines to consumers doorstep. Ordered before 4PM and it will be delivered tomorrow. We post consistently on Social Media. Our Facebook page can be viewed [here](/documentation/images/fb-page.jpeg). Consumers can also get exclusive offers by subscribing to our monthly newsletter.
 
 ![Site on a variety of device sizes]()
 
@@ -57,26 +57,29 @@ The site is targetted to people above 18 years and for Wine Lovers who have basi
    3. I can identify deals and special offers so that I can take advantage of special discounts on the products.
    4. I can easily view the total of my purchases at anytime so that I can avoid excess spending.
    5. I can register for an account so that I can have a personal account with my details and be able to view my profile.
-   6. I can login or logout so that I can access my personal account information.
-   7. I can recover my password in case I forget it so that I can recover access to my account.
-   8. I can receive an email confirmation after registering so that I can verify that my account registration was successful.
-   9. I can have a personalized user profile so that I can view my personal order history and order confirmations, and save my payment information.
-   10. I can sort the list of available products so that I can easily identify the best selling, best price and categorically sorted products.
-   11. I can sort a specific category of product so that I can find the best selling, best priced product in a specific category or sort the products in that category by name.
-   12. I can simultaneously sort multiple categories of products so that I can find the best selling, best priced products across broad categories.
-   13.  I can search for a product by name or description so that I can find a specific product I would like to purchase.
-   14.  I can see what I have searched for and the number of results. so that I can quickly decide whether the product I want is available.
-   15. I can easily select the quantity of a product while purchasing it so that I can ensure I do not select wrong product quantity.
-   16. I can view items in my cart to be purchased so that I can identify the total cost of my purchase.
-   17. I can enter my payment information so that I can checkout quickly with no hassles.
-   18. I can feel my personal and payment information is safe and secure so that I can confidently provide the needed information to make purchase.
-   19. I can view order confirmation after checkout so that I can verify that I have not made any mistakes while purchasing the products.
-   20. I can add/remove items to/from my Wishlist so that I can view or purchase it later. 
-   21. I can receive an email confirmation after checkout so that I can keep the confirmation of what I have purchased for my records.
-   22. I can add and delete review and ratings of a particular product.
+   6. I can login with Google so it is easy and less time consuming. 
+   7. I can login or logout so that I can access my personal account information.
+   8. I can recover my password in case I forget it so that I can recover access to my account.
+   9. I can receive an email confirmation after registering so that I can verify that my account registration was successful.
+   10. I can have a personalized user profile so that I can view my personal order history and order confirmations, and save my payment information.
+   11. I can sort the list of available products so that I can easily identify the best selling, best price and categorically sorted products.
+   12. I can sort a specific category of product so that I can find the best selling, best priced product in a specific category or sort the products in that category by name.
+   13. I can simultaneously sort multiple categories of products so that I can find the best selling, best priced products across broad categories.
+   14.  I can search for a product by name or description so that I can find a specific product I would like to purchase.
+   15.  I can see what I have searched for and the number of results. so that I can quickly decide whether the product I want is available.
+   16. I can easily select the quantity of a product while purchasing it so that I can ensure I do not select wrong product quantity.
+   17. I can view items in my cart to be purchased so that I can identify the total cost of my purchase.
+   18. I can enter my payment information so that I can checkout quickly with no hassles.
+   19. I can feel my personal and payment information is safe and secure so that I can confidently provide the needed information to make purchase.
+   20. I can view order confirmation after checkout so that I can verify that I have not made any mistakes while purchasing the products.
+   21. I can add/remove items to/from my Wishlist so that I can view or purchase it later. 
+   22. I can receive an email confirmation after checkout so that I can keep the confirmation of what I have purchased for my records.
+   23. I can add and delete review and ratings of a particular product.
+   24. In case of any query I can contact the site owner by filling in the contact form.
+   25. I can have easy access to the privacy, terms and condition, responsible alcohol consumption policies and gain information of how my data is collected and processed. 
 
   #### Site Admin
-   1. I am able to sell products online.
+   1. I am able to sell products online to only 18 years and above.
    2. I have the ability to add, remove or edit products.
    3. I have access to customer's orders so I can edit and/or remove it if necessary.
    4. I have access and keep track of customer information.
