@@ -416,8 +416,15 @@ footer {
     color: #ee7272;
 }
 
+/*---Mailchimp---*/
+#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px 'Josefin Sans', sans-serif;
+    width: 400px;
+}
 
-/* Allauth form formatting */
+/*--- Allauth form formatting --- */
 
 .allauth-form-inner-content {
     padding: 12px;
