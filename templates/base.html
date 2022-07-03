@@ -29,7 +29,6 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.14.1/moment.min.js"></script>
         <!-- Stripe -->
         <script src="https://js.stripe.com/v3/"></script>
     {% endblock %}
@@ -44,10 +43,8 @@
                 chardonnay, merlot, pinot noir, bordeaux, sauvignon, home-delivery, Netherlands.">
 </head>
 <body>
-<!-- Modal for age verification -->
 
-{% include 'includes/age_verification_modal.html' %}
-    <header class="container-fluid fixed-top">
+<header class="container-fluid fixed-top">
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
             <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
@@ -125,6 +122,7 @@
             <marquee width="100%" direction="left" height="55px">
                 <h4 class="fw-normal my-3"><i class="fas fa-truck fa-flip-horizontal"></i> <span class="text-success">Free</span> delivery on orders over €{{ free_delivery_threshold }}!
                     <i class="fas fa-clock"></i> Order before 4PM to receive your order tomorrow.
+                    <i class="fas fa-wine-glass"></i> You must be over 18 to sign up to our service. Please, drink responsibly!
                 </h4>
                 
             </marquee>
@@ -159,7 +157,6 @@
     <script type="text/javascript">
         $('.toast').toast('show');
     </script>
-    <script src="{% static 'js/age_verification.js' %}"></script>
     <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
     {% endblock %}
 
