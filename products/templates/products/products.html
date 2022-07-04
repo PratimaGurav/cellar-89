@@ -129,6 +129,24 @@
             </div>
         </div>
     </div>
+     <!--Message flyer-->
+    <div id="flyer" class="message-container">
+        <input onclick="myFunction()" type="radio" name="flyer" id="hide">
+        <div class="box">
+            <label for="hide"><i class="fas fa-times"></i></label>
+            <div class="right">
+                <p class="text-1 text-center">Need Tips for Picking 
+                    <br>
+                    A Good Bottle of Wine.</p>
+                <button type="button" class="btn btn-warning my-auto" data-toggle="modal" data-target="#suggestionModal">
+                    Click Me!
+                </button>
+            </div>
+        </div>
+    </div>
+        <!-- Delete product modal -->
+        {% include 'products/includes/suggestion_modal.html' %} 
+
     <!-- Back to top button -->
     <div class="btt-button shadow-sm rounded-circle">
         <a class="btt-link d-flex h-100">
@@ -141,4 +159,5 @@
     {{ block.super }}
     <!-- JavaScript for sorting the results -->
     <script src="{% static 'products/js/sorting.js' %}"></script>
+    <script src="{% static 'products/js/flyer.js' %}"></script>
 {% endblock %}

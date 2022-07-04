@@ -291,6 +291,53 @@ a.category-badge > span.badge:hover {
     padding: 1.5rem;
 }
 
+/*----FLYER MESSAGE----*/
+
+.message-container{
+    position: absolute;
+    right: 30px;
+    top: 300px;
+    padding-top: 5%;
+}
+
+.message-container .box{
+    background: #ffb9b9;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    padding: 15px 25px 15px 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.message-container .box i{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: #6d0202;
+    cursor: pointer;
+}
+  
+.message-container i:hover{
+    color: white;
+}
+  
+.box .right{
+    display: flex;
+    flex-direction: column;
+}
+  
+.box .right .text-1{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+}
+  
+.message-container #hide{
+    display: none;
+} 
+
+
 /*---------- CONTACT US PAGE ----------*/
 .contact__main--container {
     display: flex;
