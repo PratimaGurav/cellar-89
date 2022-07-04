@@ -42,17 +42,16 @@
     <meta name="keywords" content="white wine, red wine, rosé wine, champagne, sparkling wine, high wine, bestseller, good wine, aged wines, grapes,
                 chardonnay, merlot, pinot noir, bordeaux, sauvignon, home-delivery, Netherlands.">
 </head>
-<body>
+<body class="d-flex flex-column min-vh-100">
 
 <header class="container-fluid fixed-top">
         <div id="topnav" class="row bg-white pt-lg-2 d-none d-lg-flex">
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
+            <div class="col-4 my-auto py-1 py-lg-0 text-center text-lg-left header-row">
                 <a href="{% url 'home' %}" class="nav-link main-logo-link">
-                    <h2 class="logo-font text-black my-0"><strong>Cellar'89</strong></h2>
-                    <small class="text-black mx-4">older and tastier <i class="fas fa-wine-glass"></i></small>
+                    <img src="/media/logo1.jpeg" alt="Logo" class="logo-img">
                 </a>
             </div>
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 header-row">
                 <form method="GET" action="{% url 'products' %}">
                     <div class="input-group w-100">
                         <input class="form-control border border-black rounded-0" type="text" name="q" placeholder="What are you looking for?">
@@ -66,7 +65,7 @@
                     </div>
                 </form>
             </div>
-            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0">
+            <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 header-row">
                 <ul class="list-inline list-unstyled text-center text-lg-right my-0">
                     <li class="list-inline-item dropdown">
                         <a class="text-black nav-link" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

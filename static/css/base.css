@@ -90,6 +90,17 @@ h1 h2 h3 h4 h5 h6 {
     width: 1.5rem;
 }
 
+.logo-img {
+    width: 180px;
+    height: 70px;
+}
+
+.header-row {
+    margin: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+
 .logo-font {
     text-transform: uppercase;
     font-family: 'Josefin Sans', sans-serif;
