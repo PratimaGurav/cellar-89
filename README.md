@@ -96,9 +96,9 @@ In addition to our target audience, our team aims to promote responsible alcohol
   - #### Wireframes
     Balsamiq was used to create wireframes for mobile, tablet/ipad and desktop.
     
-    [Desktop]() |
-    [Tablet]() |
-    [Mobile]() |
+    [Desktop](/documentation/wireframes/desktop.pdf) |
+    [Tablet](/documentation/wireframes/tablet.pdf) |
+    [Mobile](/documentation/wireframes/mobile.pdf) |
    
     
 ## Features
