@@ -91,14 +91,8 @@ h1 h2 h3 h4 h5 h6 {
 }
 
 .logo-img {
-    width: 12rem;
-    height: 5.5rem;
-}
-
-.header-row {
-    margin: 0;
-    padding-right: 0;
-    padding-left: 0;
+    width: 180px;
+    height: 70px;
 }
 
 .logo-font {
