@@ -26,6 +26,27 @@
     </div>
     <!-- /.callout -->
 </div>
+<!--Message flyer-->
+<div id="flyer" class="message-container">
+    <input onclick="myFunction()" type="radio" name="flyer" id="hide">
+    <div class="box">
+        <label for="hide"><i class="fas fa-times"></i></label>
+        <div class="right">
+            <p class="text-1 text-center">Need Tips for Picking
+                <br>
+                A Good Bottle of Wine.</p>
+            <button type="button" class="btn btn-warning my-auto" data-toggle="modal" data-target="#suggestionModal">
+                Click Me!
+            </button>
+        </div>
+    </div>
+</div>
+<!-- Suggestion product modal -->
+{% include 'includes/suggestion_modal.html' %}
+
 {% endblock %}
 
+{% block postloadjs %}
+<script src="{% static 'js/flyer.js' %}"></script>
+{% endblock %}
              

@@ -152,29 +152,10 @@
     {% block content %}
     {% endblock %}
 
-     <!--Message flyer-->
-     <div id="flyer" class="message-container">
-        <input onclick="myFunction()" type="radio" name="flyer" id="hide">
-        <div class="box">
-            <label for="hide"><i class="fas fa-times"></i></label>
-            <div class="right">
-                <p class="text-1 text-center">Need Tips for Picking 
-                    <br>
-                    A Good Bottle of Wine.</p>
-                <button type="button" class="btn btn-warning my-auto" data-toggle="modal" data-target="#suggestionModal">
-                    Click Me!
-                </button>
-            </div>
-        </div>
-    </div>
-        <!-- Suggestion product modal -->
-        {% include 'includes/suggestion_modal.html' %} 
-
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');
     </script>
-    <script src="{% static 'js/flyer.js' %}"></script>
     <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
     {% endblock %}
 
