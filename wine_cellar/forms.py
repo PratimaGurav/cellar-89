@@ -4,7 +4,7 @@ from django.forms import ValidationError
  
  
 class CustomSignupForm(SignupForm):
-    over_18 = forms.BooleanField(help_text='Please confirm you are over the age of 18')
+    over_18 = forms.BooleanField(help_text='I certify that I am 18 years old.')
  
     def save(self, request):
         user = super(CustomSignupForm, self).save(request)
