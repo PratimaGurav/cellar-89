@@ -1,6 +1,6 @@
 User-agent: *
 Disallow: /accounts/
-Disallow: /user_accounts/
+Disallow: /socialaccounts/
 Disallow: /cart/
 Disallow: /checkout/
 Disallow: /checkout/checkout_success/
