@@ -140,7 +140,7 @@ All Pages on the website have:
   - [GitHub](https://github.com/) was used to store the projects code after being pushed from Git.   
   - [Balsamiq](https://balsamiq.com/) was used to create the wireframes during the design process. 
   - [Color Adobe](https://color.adobe.com/) was used to select different colours used on the website. 
-  - [Cloudinary](https://cloudinary.com/home-3722) was used to store images. 
+  - [Amazon AWS S3](https://aws.amazon.com/s3/) was used to host media (images) and static(CSS and JavaScript) files for the site.
   - [Heroku](https://heroku.com/) was used for deployment and hosting environment. 
   - [Favicon](https://favicon.io/) was used to create favicon.
   - [Canva](https://www.canva.com/) was used to create free logo.
@@ -213,12 +213,19 @@ All Pages on the website have:
 ### Code
 - Project- Boutique Ado was referred for designing and technical implementation.
 - [Stack Overflow](https://stackoverflow.com/) was referred for resloution of technical queries.
-
+- Images were taken from following websites:
+  - Pexels(https://www.pexels.com/)
+  - Unsplash(https://unsplash.com/)
+  - String Fixer(https://stringfixer.com/)
+- Product info and cost prices were taken from following websites:
+  - Gall & Gall(https://www.gall.nl/)
+  - Vivino(https://www.vivino.com/NL/en/)
+  - Drunken Boutique(https://www.drankenboutique.nl/)
 
 ## Acknowledgements
 
   -   My Mentor for guidance.
-  -   All the tutors from Code Institute for continues support.
+  -   All the tutors (Ger, John) from Code Institute for continues support.
 
 
 ## [BACK TO TOP]()

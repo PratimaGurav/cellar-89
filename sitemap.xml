@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://cellar-89.herokuapp.com/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/accounts/login/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/cart/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/?sort=rating&amp;direction=desc</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/?sort=country&amp;direction=asc</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/?category=red_wine</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/?category=white_wine</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/?category=rose_wine</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/?category=sparkling_wine</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/?category=champagne</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/?category=red_wine,white_wine,rose_wine,sparkling_wine,champagne</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/?category=discounts</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/?category=wine_packages</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/?category=discounts,wine_packages</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/contact/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/16/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/17/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/20/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/11/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/15/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/13/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/9/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/6/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/10/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/19/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/21/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/5/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/8/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/2/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/7/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/14/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/3/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/18/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/accounts/login/?next=/products/delete/16/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/accounts/login/?next=/products/delete/17/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/accounts/login/?next=/products/delete/20/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/accounts/login/?next=/products/delete/11/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/accounts/login/?next=/products/delete/15/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/accounts/login/?next=/products/delete/13/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/accounts/login/?next=/products/delete/9/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/accounts/login/?next=/products/delete/6/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/accounts/login/?next=/products/delete/10/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/accounts/login/?next=/products/delete/19/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/accounts/login/?next=/products/delete/21/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/accounts/login/?next=/products/delete/5/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/accounts/login/?next=/products/delete/8/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/accounts/login/?next=/products/delete/2/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/products/delete_review/2/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/accounts/login/?next=/products/delete/7/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/accounts/login/?next=/products/delete/14/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/accounts/login/?next=/products/delete/3/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://cellar-89.herokuapp.com/accounts/login/?next=/products/delete/18/</loc>
+  <lastmod>2022-07-06T18:43:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>

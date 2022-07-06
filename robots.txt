@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /user_accounts/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /checkout/checkout_success/
+Disallow: /profile/
+Disallow: /products/add/
+Sitemap: https://cellar-89.herokuapp.com/sitemap.xml
