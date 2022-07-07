@@ -76,7 +76,9 @@ In addition to our target audience, our team aims to promote responsible alcohol
    22. I can add/remove items to/from my Wishlist so that I can view or purchase it later. 
    23. I can add and delete review and ratings of a particular product.
    24. In case of any query I can contact the site owner by filling in the contact form.
-   25. I can have easy access to the privacy, terms and condition, responsible alcohol consumption policies and gain information of how my data is collected and processed. 
+   25. I want to stayed updated with all the latest and exclusive offers 
+   26. I can have easy access to the privacy, terms and condition, responsible alcohol consumption policies and gain information of how my data is collected and processed.
+   27. I want tips for picking a good bottle of wine. 
 
   #### Site Admin
    1. I am able to sell products online to only 18 years and above.
