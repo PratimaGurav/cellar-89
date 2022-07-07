@@ -72,8 +72,8 @@ In addition to our target audience, our team aims to promote responsible alcohol
    18. I can enter my payment information so that I can checkout quickly with no hassles.
    19. I can feel my personal and payment information is safe and secure so that I can confidently provide the needed information to make purchase.
    20. I can view order confirmation after checkout so that I can verify that I have not made any mistakes while purchasing the products.
-   21. I can add/remove items to/from my Wishlist so that I can view or purchase it later. 
-   22. I can receive an email confirmation after checkout so that I can keep the confirmation of what I have purchased for my records.
+   21. I can receive an email confirmation after checkout so that I can keep the confirmation of what I have purchased for my records.
+   22. I can add/remove items to/from my Wishlist so that I can view or purchase it later. 
    23. I can add and delete review and ratings of a particular product.
    24. In case of any query I can contact the site owner by filling in the contact form.
    25. I can have easy access to the privacy, terms and condition, responsible alcohol consumption policies and gain information of how my data is collected and processed. 
