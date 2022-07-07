@@ -5,6 +5,7 @@ from django.views import View
 from .models import Contact
 from .forms import ContactForm
 from django.views.generic.edit import FormView
+from django.urls import reverse
 
 # Create your views here.
 
@@ -29,7 +30,8 @@ class ContactView(View):
             # save form data
             form.save()
             messages.success(self.request, 'Thank You, your form submission has been successful!!')
-            return HttpResponseRedirect('/')
+            return HttpResponseRedirect(reverse('home'))
+
         else:
             errors = form.errors
             for error in errors:
