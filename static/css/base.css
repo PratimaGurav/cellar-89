@@ -562,6 +562,23 @@ footer {
   }
 }
 
+@media (max-width: 1287px) {
+    .contact__main--container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color:#ffb9b9;
+      box-shadow: 0 5px 18px rgb(0 0 0 / 60%);
+      border-radius: 0.25em;
+      padding: 1.2rem 1rem;
+      width: 100%;
+      max-width: 90%;
+      margin: 1em;
+    }
+}
+
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
@@ -605,6 +622,10 @@ footer {
     .navbar-toggler {
         padding: .6rem .6rem;
         font-size: 1rem;
+    }
+
+    .navbar {
+        width: 80% !important;
     }
 
     #delivery-banner h4 {
