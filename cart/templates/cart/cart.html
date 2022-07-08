@@ -31,7 +31,7 @@
                     <div class="row">
                         <div class="col">
                             {% include "cart/checkout-buttons.html" %}
-                            <p class="text-muted mb-5">A summary of your cart contents is below</p>
+                            <p class="text-muted mt-2">Cart Summary{% if cart_items %} ({{ cart_items|length }}){% endif %}</p>
                         </div>
                     </div>
                     {% for item in cart_items %}

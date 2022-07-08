@@ -131,6 +131,19 @@ h1 h2 h3 h4 h5 h6 {
     color: white;
 }
 
+.btn-outline-black {
+    background: white;
+    color: black !important; /* use important to override link colors for <a> elements */
+    border: 1px solid black;
+}
+
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+    background: black;
+    color: white !important;
+}
+
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
@@ -632,13 +645,13 @@ footer {
         font-size: .9rem;
     }
 
-    .btn.btn-outline-black.rounded-0,
-    .btn.btn-black.rounded-0 {
+    .btn.btn-outline-black.rounded-1,
+    .btn.btn-black.rounded-1 {
         padding: .375rem .375rem;
     }
 
-    .btn.btn-outline-black.rounded-0.btn-lg,
-    .btn.btn-black.rounded-0.btn-lg {
+    .btn.btn-outline-black.rounded-1.btn-lg,
+    .btn.btn-black.rounded-1.btn-lg {
         padding: .375rem .375rem;
         font-size: .75rem;
     }
@@ -682,6 +695,10 @@ footer {
 
     .wishlist {
         margin-left: 1rem;
+    }
+
+    .message-container {
+        right: 95px !important;
     }
     
     
