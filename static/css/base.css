@@ -714,4 +714,22 @@ footer {
         right: 150px;
         top: 150px;
     }
+
+    .contact__main--container {
+        max-width: 95%;
+        margin-top: 8rem;
+    }
+
+    .card, .card-img-top {
+        max-height: 650px;
+    }
+
+    .card-footer {
+        margin-top: 1rem;
+    }
+
+    .review-box {
+        margin-left: 2.5rem;
+        height: 35.3vh;
+    }
 }

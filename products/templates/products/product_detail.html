@@ -121,7 +121,7 @@
     </div>
     <div class="row">
         <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
-            <h3 class="text-black">Reviews</h3>
+            <h3 class="text-center">Reviews</h3>
             {% if reviews %}
                 <section class="review-box mb-3">
                     <!-- Loop over the reviews -->
@@ -172,7 +172,7 @@
                 </section>
             {% else %}
                 <div class="row align-items-start">
-                    <h4 class="lead">Please <a href="{% url 'account_login' %}" class="font-weight-bold">sign in </a> to post a review.</h4>
+                    <h4 class="lead ml-5">Please <a href="{% url 'account_login' %}" class="font-weight-bold">sign in </a> to post a review.</h4>
                 </div>
             {% endif %}
         </div>
