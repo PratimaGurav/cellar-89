@@ -1,6 +1,9 @@
+"""
+Forms for product app
+"""
 from django import forms
 from django.forms import (
-    Textarea, Select, ModelForm, CharField
+    Textarea, Select, ModelForm
 )
 from .widgets import CustomClearableFileInput
 from .models import Review, Product, Category
@@ -37,16 +40,23 @@ class ReviewForm(ModelForm):
 
 
 class ProductForm(forms.ModelForm):
+    """
+    To create and edit products by admins.
+    """
 
     class Meta:
+        """
+        To define the Product model and which fields to exclude.
+        """
         model = Product
         fields = '__all__'
 
-    image = forms.ImageField(label='Image', required=False, widget=CustomClearableFileInput)
+    image = forms.ImageField(
+        label='Image', required=False, widget=CustomClearableFileInput)
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
-        categories = Category.objects.all()
+        categories = Category.objects.all()  # pylint: disable=no-member
         friendly_names = [(c.id, c.get_friendly_name()) for c in categories]
 
         self.fields['category'].choices = friendly_names
