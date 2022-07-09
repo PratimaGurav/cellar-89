@@ -11,4 +11,5 @@ class CheckoutConfig(AppConfig):
     name = 'checkout'
 
     def ready(self):
+        # pylint: disable=unused-import, import-outside-toplevel
         import checkout.signals

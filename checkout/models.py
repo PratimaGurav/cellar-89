@@ -63,6 +63,7 @@ class Order(models.Model):
         Update grand total each time a lineitem is added,
         accounting for delivery costs.
         """
+        # pylint: disable=maybe-no-member
         self.order_total = self.lineitems.aggregate(
             Sum('lineitem_total'))['lineitem_total__sum'] or 0
         if self.order_total < settings.FREE_DELIVERY_THRESHOLD:
@@ -110,8 +111,10 @@ class OrderLineItem(models.Model):
         Override the original save method to set the lineitem total
         and update the order total.
         """
+        # pylint: disable=maybe-no-member
         self.lineitem_total = self.product.price * self.quantity
         super().save(*args, **kwargs)
 
     def __str__(self):
+        # pylint: disable=maybe-no-member
         return f'SKU {self.product.sku} on order {self.order.order_number}'
