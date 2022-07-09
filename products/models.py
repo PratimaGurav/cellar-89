@@ -1,23 +1,40 @@
+"""
+Contains the models Category, Product and Review.
+"""
 from django.db import models
 from django.contrib.auth.models import User
 
 
 class Category(models.Model):
-
+    """
+    Category name.
+    """
     class Meta:
+        """
+        For category plural.
+        """
         verbose_name_plural = 'Categories'
 
     name = models.CharField(max_length=250)
     friendly_name = models.CharField(max_length=250, null=True, blank=True)
 
     def __str__(self):
-        return self.name
+        """
+        Returns the category name as string.
+        """
+        return f'{self.name}'
 
     def get_friendly_name(self):
+        """
+        Returns the user readable category name as string.
+        """
         return self.friendly_name
 
 
 class Product(models.Model):
+    """
+    To generate an instance of a product
+    """
     category = models.ForeignKey(
         'Category', null=True, blank=True,
         on_delete=models.SET_NULL
@@ -40,12 +57,15 @@ class Product(models.Model):
     image = models.ImageField(null=True, blank=True)
 
     def __str__(self):
-        return self.name
+        return f'{self.name}'
 
 
 class Review(models.Model):
+    """
+    To create an instance of a review
+    """
 
-    RATING_CHOICES = [ 
+    RATING_CHOICES = [
         (5, '5'),
         (4, '4'),
         (3, '3'),
@@ -82,6 +102,9 @@ class Review(models.Model):
     )
 
     class Meta:
+        """
+        Meta class enables ordering by date
+        """
         ordering = ["created_on"]
 
     def __str__(self):
