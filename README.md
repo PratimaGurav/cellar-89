@@ -149,6 +149,8 @@ All Pages on the website have:
   - [TinyPNG](https://tinypng.com/) was used to compress images.
 
 ## Database Models
+- During the earliest stages of the project, the database was created using SQLite.
+- The database was then migrated to PostgreSQL.
 
     
 ## Testing
@@ -181,7 +183,7 @@ All Pages on the website have:
     ![Create App](/documentation/images/heroku-create-app.jpg)
     - In Resources add Heroku Postgres.
     ![Resources](/documentation/images/heroku-resources.jpg)
-    - Within your newly created app go to settings go to Config Vars use the DATABASE_URL Value and add it to your env.py file also you need to connect it via settings.py.
+    - Within your newly created app go to settings and click Config Vars. Use the DATABASE_URL Value and add it to your env.py file also you need to connect it via settings.py.
     ![Config Vars](/documentation/images/heroku-configvars.jpg)
     - Create a SECRET_KEY Key and the Value as the desired key.
     - Then go to the Deploy tab next to Deployment Method, click GitHub to connect your account and repository.
@@ -195,15 +197,20 @@ All Pages on the website have:
   - Create a new Bucket within the S3 application with an appropriate name.
   - Enable public access for your bucket so users can access and use the services on your website (upload, view, download, etc). More info can be read in the [official documentation](https://aws.amazon.com/s3/) 
 
-### Making a Local Clone
+### How to Fork
 
-  1. Log in to GitHub and navigate to the [GitHub Repository]()
-  2. To clone the repository using HTTPS, click Code and copy the address. 
-  ![Clone Repository]()
-  3. Navigate to Git Bash and clone the repository. 
-  ![Clone-Command]()
-  4. Press Enter and your local clone will be created. 
-  ![Clone-Output]()
+  1. Log in to GitHub and navigate to the [GitHub Repository](https://github.com/PratimaGurav/cellar-89)
+  2. Click the Fork button in the top right corner.
+  3. You will find a copy of the repository in your own Github account.
+
+### How to Clone
+
+  1. Log in to GitHub and navigate to the [GitHub Repository](https://github.com/PratimaGurav/cellar-89)
+  2. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+  3.  Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+  4. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+
 
 ## Credits
 
@@ -211,18 +218,21 @@ All Pages on the website have:
 - Project- Boutique Ado was referred for designing and technical implementation.
 - [Stack Overflow](https://stackoverflow.com/) was referred for resloution of technical queries.
 - Images were taken from following websites:
-  - Pexels(https://www.pexels.com/)
-  - Unsplash(https://unsplash.com/)
-  - String Fixer(https://stringfixer.com/)
-- Product info and cost prices were taken from following websites:
-  - Gall & Gall(https://www.gall.nl/)
-  - Vivino(https://www.vivino.com/NL/en/)
-  - Drunken Boutique(https://www.drankenboutique.nl/)
+  - [Pexels](https://www.pexels.com/)
+  - [Unsplash](https://unsplash.com/)
+  - [String Fixer](https://stringfixer.com/)
+- Product info and cost price were taken from following websites:
+  - [Gall & Gall](https://www.gall.nl/)
+  - [Vivino](https://www.vivino.com/NL/en/)
+  - [Drunken Boutique](https://www.drankenboutique.nl/)
+- Blog post to understand how to choose wine.
+  - [Royal Glass](https://royal-glass.com/blog/how-to-choose-wine/)
+
 
 ## Acknowledgements
 
   -   My Mentor for guidance.
-  -   All the tutors (Ger, John) from Code Institute for continues support.
+  -   All the tutors (Ger, John, Kevin) from Code Institute for continues support.
 
 
 ## [BACK TO TOP]()
