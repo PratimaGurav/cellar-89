@@ -1,9 +1,16 @@
+"""
+Admin models for superuser capabilities with models.
+"""
 from django.contrib import admin
 from .models import Product, Category, Review
 
 # Register your models here.
 
+
 class ProductAdmin(admin.ModelAdmin):
+    """
+    Product admin
+    """
     list_display = (
         'name',
         'category',
@@ -15,7 +22,11 @@ class ProductAdmin(admin.ModelAdmin):
 
     ordering = ('sku',)
 
+
 class CategoryAdmin(admin.ModelAdmin):
+    """
+    Category admin
+    """
     list_display = (
         'friendly_name',
         'name',
@@ -46,6 +57,7 @@ class ReviewAdmin(admin.ModelAdmin):
         'product__name'
     ]
     list_per_page = 15
+
 
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Category, CategoryAdmin)
