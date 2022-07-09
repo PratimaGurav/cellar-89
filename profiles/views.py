@@ -1,21 +1,26 @@
+"""
+Views for profile app.
+"""
 from django.shortcuts import (
-    render, redirect, reverse, get_object_or_404, HttpResponse
+    render, redirect, reverse, get_object_or_404
 )
 from django.http import Http404
 from django.contrib import messages
-from django.contrib import messages
 from django.contrib.auth.decorators import login_required
-
-from .models import UserProfile, WishListItem
-from .forms import UserProfileForm
 
 from products.models import Product
 from checkout.models import Order
+from .models import UserProfile, WishListItem
+from .forms import UserProfileForm
+
+# pylint: disable=no-member
 
 
 @login_required
 def profile(request):
-    """ Display the user's profile. """
+    """ Display the user's profile and
+    allows user to view and edit wishlist.
+    """
     profile = get_object_or_404(UserProfile, user=request.user)
 
     try:
@@ -26,7 +31,7 @@ def profile(request):
         wishlist_items = wishlist.product.all()
 
     if not wishlist_items:
-        messages.info(request, 'Your Wishlist is empty!')   
+        messages.info(request, 'Your Wishlist is empty!')
 
     if request.method == 'POST':
         form = UserProfileForm(request.POST, instance=profile)
@@ -34,7 +39,8 @@ def profile(request):
             form.save()
             messages.success(request, 'Profile updated successfully')
         else:
-            messages.error(request, 'Update failed. Please ensure the form is valid.')
+            messages.error(
+                request, 'Update failed. Please ensure the form is valid.')
     else:
         form = UserProfileForm(instance=profile)
     orders = profile.orders.all()
@@ -47,8 +53,7 @@ def profile(request):
         'on_profile_page': True
     }
 
-    return render(request, template, context) 
-
+    return render(request, template, context)
 
 
 @login_required
@@ -96,6 +101,9 @@ def remove_from_wishlist(request, product_id):
 
 
 def order_history(request, order_number):
+    """
+    To view order history.
+    """
     order = get_object_or_404(Order, order_number=order_number)
 
     messages.info(request, (
