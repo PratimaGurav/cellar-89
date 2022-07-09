@@ -18,17 +18,19 @@ Users can also stay updated with all the latest and exclusive offers by followin
 
 # Target Audience
 
-The site is targetted to people above 18 years and for Wine Lovers who have basic to good wine knowledge. 
-    -   People who are open to innovative packaging. 
-    -   Also who prefer to entertain their friends at home or have any formal occasions. 
-    -   People who are influenced by wine ratings. 
-    -   For whom wine is part of their regular routine. 
-    -   People who don't know much about wine and are interested in learning more about wines.
+The site is targetted to people above 18 years and for Wine Lovers who have basic to good wine knowledge. People who are open to innovative packaging. Also who prefer to entertain their friends at home or have any formal occasions. The one who are influenced by wine ratings. For whom wine is part of their regular routine. And also who don't know much about wine and are interested in learning more about wines.
 
 
 # Marketing
 
 In addition to our target audience, our team aims to promote responsible alcohol consumption. The wine market is a highly competitive market due to many global and domestic companies operating in various countries hence we are delivering finest wines to consumers doorstep. Ordered before 4PM and it will be delivered tomorrow. We post consistently on Social Media. Our Facebook page can be viewed [here](/documentation/images/fb-page.jpeg). Consumers can also get exclusive offers by subscribing to our monthly newsletter.
+
+# Search Engine Optimisation
+
+Generated sitemap.xml and robots.txt files to improve the quality and quantity of website traffic. 
+I have come up with a selection of keywords which would be importnt to the customers and added them in the [meta](/documentation/images/meta.jpeg).
+[Long-tail](/documentation/images/long-tail.jpg)
+[Keywords](/documentation/images/keywords.jpeg) 
 
 ![Site on a variety of device sizes]()
 
