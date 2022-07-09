@@ -25,9 +25,9 @@ In addition to our target audience, our team aims to promote responsible alcohol
 
 ![Site on a variety of device sizes]()
 
-[Click here to view the live project.]()
+[Click here to view the live project.](https://cellar-89.herokuapp.com/)
 
-[Click here to view the repository.]()
+[Click here to view the repository.](https://github.com/PratimaGurav/cellar-89)
 
 ## Table of Contents:
 - [User Experience (UX)]()
@@ -154,18 +154,16 @@ All Pages on the website have:
 ## Testing
 
 ### Bugs
-- 
+- Site had a feature of age verification modal [Code pen](https://codepen.io/tuhi009/pen/xxxBGdB) site was used as a reference. Age criteria and cookies statement did not work correctly and had [errors](/documentation/images/age-modal-bug.png). After consulting with the Tutor team and to avoid author plagiarism the same was deleted. 
+  As an alternative Responsible Alcohol Consumption modal was added and the marquee features age criteria. Also the sign up page has a feature to certify the age is 18 years and above. 
 
 ### Validation
 
 - [W3C Markup Validator](https://validator.w3.org/nu/) was used to validate every HTML page of the project to ensure there are no  syntax errors. 
-  Results of the same can be found [Here]()
 
 - [PEP8](http://pep8online.com/) was used to validate python code.
- Results of the same can be found [Here]()
 
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to validate CSS.
-  Results of the same can be found [Here]()
 
 
 ### Further Testing
@@ -178,27 +176,24 @@ All Pages on the website have:
 ## Deployment
 
 ### Using Heroku
-- Development Enviroment
-  1.  Create env.py : It needs to contain these variables.
-    - [Cloudinary](https://cloudinary.com/)
-    - Secret key is the password of your choice.
-    - [Heroku](https://id.heroku.com/) postgreSQL.
-    ![env file]()
-  2. Create requirements.txt file.
-  3. Create Procfile containing application name to ensure proper formatting to avoid the deployment to fail.
-  4. Commit and push deployment changes to Github.
-  5. Create an account and login to Heroku
+  Create an account and login to [Heroku](https://id.heroku.com/)
     - Create a new app, with an appropriate app name and choose a region.
-    ![Create App]()
+    ![Create App](/documentation/images/heroku-create-app.jpg)
     - In Resources add Heroku Postgres.
-    ![Resources]()
+    ![Resources](/documentation/images/heroku-resources.jpg)
     - Within your newly created app go to settings go to Config Vars use the DATABASE_URL Value and add it to your env.py file also you need to connect it via settings.py.
-    ![Config Vars]()
+    ![Config Vars](/documentation/images/heroku-configvars.jpg)
     - Create a SECRET_KEY Key and the Value as the desired key.
     - Then go to the Deploy tab next to Deployment Method, click GitHub to connect your account and repository.
     - At the bottom of the page hit deploy branch making sure it is set to main.
+    - Also "Enable Automatic Deploys" can be clicked to keep the app up to date with your Github repository.
 
- 
+### Amazon Web Services S3
+  Create an account and login to [AWS](https://aws.amazon.com/)
+  - Navigate to the IAM application and create a user and group.
+  - Set the AmazonS3FullAccess for the user and copy the AWS ACCESS and SECRET keys as config vars to your workspace and deployment environment.
+  - Create a new Bucket within the S3 application with an appropriate name.
+  - Enable public access for your bucket so users can access and use the services on your website (upload, view, download, etc). More info can be read in the [official documentation](https://aws.amazon.com/s3/) 
 
 ### Making a Local Clone
 
