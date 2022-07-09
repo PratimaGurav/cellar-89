@@ -638,7 +638,7 @@ footer {
     }
 
     .navbar {
-        width: 70% !important;
+        width: 90% !important;
     }
 
     #delivery-banner h4 {
@@ -700,7 +700,29 @@ footer {
     .message-container {
         right: 95px !important;
     }
-    
+
+    .contact__main--container {
+        margin-top: 4rem;
+    }
+    .card, .card-img-top {
+        max-height: 650px;
+    }
+
+    .card-footer {
+        margin-top: 1rem;
+    }
+
+    .btt-button {
+        right: 40px;
+    }
+
+    .review-form {
+        height: 70vh;
+    }
+
+    .review-box {
+        margin: 1rem;
+    }
 }
 
 /*--Media Queries: MEDIUM SIZED TABLETS AND UP */
@@ -729,7 +751,13 @@ footer {
     }
 
     .review-box {
-        margin-left: 2.5rem;
+        margin-left: 2rem;
         height: 35.3vh;
     }
+
+    .review-form {
+        height: 50vh;
+        margin-left: 1rem;
+    }
+
 }
