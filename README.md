@@ -157,10 +157,15 @@ All Pages on the website have:
   - [Canva](https://www.canva.com/) was used to create free logo.
   - [TinyPNG](https://tinypng.com/) was used to compress images.
 
-## Database Models
+## Information Architecture
+
+### Database Models
 - During the earliest stages of the project, the database was created using SQLite.
 - The database was then migrated to PostgreSQL.
 
+### Entity-Relationship Diagram
+- The ERD was created using [Lucid](https://lucid.app/users/login#/login)
+- [Database Scheme](/documentation/database-ERdiagram.pdf)
     
 ## Testing
 
