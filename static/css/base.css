@@ -566,7 +566,7 @@ footer {
     font-size: 1.5rem;
 }
 
-/* -------------------------------- Media Queries */
+/* ----Media Queries----*/
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
@@ -701,5 +701,17 @@ footer {
         right: 95px !important;
     }
     
-    
+}
+
+/*--Media Queries: MEDIUM SIZED TABLETS AND UP */
+
+@media (min-width: 768px){
+    .jumbotron {
+       width: 30rem;
+    }
+
+    .message-container-flyer {
+        right: 150px;
+        top: 150px;
+    }
 }
