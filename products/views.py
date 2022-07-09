@@ -1,3 +1,6 @@
+"""
+Views to display all pages in the products app.
+"""
 from django.shortcuts import (
     render, redirect, reverse, get_object_or_404, HttpResponse
 )
@@ -11,7 +14,7 @@ from profiles.models import WishListItem
 from .models import Product, Category, Review
 from .forms import ReviewForm, ProductForm
 
-# Create your views here.
+# pylint: disable=no-member
 
 
 def all_products(request):
@@ -32,7 +35,7 @@ def all_products(request):
                 sortkey = 'lower_name'
                 products = products.annotate(lower_name=Lower('name'))
             if sortkey == 'category':
-                sortkey = 'category__name' 
+                sortkey = 'category__name'
             if 'direction' in request.GET:
                 direction = request.GET['direction']
                 if direction == 'desc':
@@ -50,8 +53,9 @@ def all_products(request):
             if not query:
                 messages.error(request, "Please enter a search criteria!")
                 return redirect(reverse('products'))
-            
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+
+            queries = Q(
+                name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
@@ -66,6 +70,7 @@ def all_products(request):
 
     return render(request, 'products/products.html', context)
 
+
 def product_detail(request, product_id):
     """ A view to show individual product details """
 
@@ -76,7 +81,7 @@ def product_detail(request, product_id):
         wishlistitem = {}
         wishlist = None
     else:
-        wishlist = wishlistitem.product.all()  
+        wishlist = wishlistitem.product.all()
 
     reviews = Review.objects.filter(product=product)
 
@@ -113,10 +118,13 @@ def product_detail(request, product_id):
         'wishlist': wishlist,
     }
 
-    return render(request, 'products/product_detail.html', context)    
+    return render(request, 'products/product_detail.html', context)
 
 
 def delete_review(request, review_id):
+    """
+    Deletes review
+    """
     review = get_object_or_404(Review, pk=review_id)
     product = review.product
 
@@ -129,7 +137,7 @@ def delete_review(request, review_id):
             )
         )
 
-    except Exception as e:
+    except Exception as e:  # pylint: disable=broad-except, invalid-name
         messages.error(request, f'Error removing review: {e}')
         return HttpResponse(status=500)
 
@@ -159,7 +167,7 @@ def add_product(request):
                     Please ensure the form is valid.')
     else:
         form = ProductForm()
-        
+
     template = 'products/add_product.html'
     context = {
         'form': form,
@@ -204,7 +212,7 @@ def delete_product(request, product_id):
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, access denied.')
         return redirect(reverse('home'))
-            
+
     product = get_object_or_404(Product, pk=product_id)
     product.delete()
     messages.success(request, 'Product deleted!')
