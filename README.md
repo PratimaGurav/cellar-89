@@ -190,8 +190,7 @@ All Pages on the website have:
  - Thorough testing was done to ensure all the features work as expected and smoothly within the application for all the users including the admin. 
  Detailed summary of the testing can be found in the below attachments:
  [User Story Testing](/documentation/user_story_testing.pdf)
-
-
+ [User Validation Testing](/documentation/user_validation_testing.pdf)
 
 ### Known Bugs
   - 
