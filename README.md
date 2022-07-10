@@ -98,8 +98,10 @@ I have come up with a selection of keywords which would be importnt to the custo
 ### Design
 
   - #### Color Scheme
-    As the theme of the site is all about vegan, the colours used are the classic vegetable colours. The rest of the colours complement each other and maintain good contrast levels.
-    ![Color Palette]()
+    As the theme of the site is all about wine, the colours used are the classic red rose wine colours. The rest of the colours complement each other and maintain good contrast levels.
+    Color Palettes are as below:
+    ![1](/documentation/images/color.png)
+    ![2](/documentation/images/color1.png)
 
   - #### Typography
     [Josefin Sans](https://fonts.google.com/specimen/Josefin+Sans?query=josefin+sans) font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. [Dancing Script](https://fonts.google.com/specimen/Dancing+Script?query=dancing+script) is used for headings with cursive as the fallback.  
