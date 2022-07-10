@@ -165,7 +165,7 @@ All Pages on the website have:
 
 ### Entity-Relationship Diagram
 - The ERD was created using [Lucid](https://lucid.app/users/login#/login)
-- [Database Scheme](/documentation/database-ERdiagram.pdf)
+- [Database Scheme](/documentation/database-diagram.pdf)
     
 ## Testing
 
@@ -189,7 +189,8 @@ All Pages on the website have:
 
  - Thorough testing was done to ensure all the features work as expected and smoothly within the application for all the users including the admin. 
  Detailed summary of the testing can be found in the below attachments:
- 
+ [User Story Testing](/documentation/user_story_testing.pdf)
+
 
 
 ### Known Bugs
