@@ -1,5 +1,7 @@
 # Cellar 89
 
+![Logo](/media/logo1.jpeg)
+
 ## Code Institute: Portfolio Project 5
 
 ### E-commerce Applications.
@@ -39,19 +41,35 @@ I have come up with a selection of keywords which would be importnt to the custo
 [Click here to view the repository.](https://github.com/PratimaGurav/cellar-89)
 
 ## Table of Contents:
-- [User Experience (UX)]()
 
-- [Features]()
-  
-- [Technologies Used]()
-  
-- [Testing]()
-  
-- [Deployment]()
- 
-- [Credits]()
+* [User Experience (UX)](https://github.com/PratimaGurav/cellar-89#user-experience-ux)
+  * [User Stories](https://github.com/PratimaGurav/cellar-89#user-stories)
 
-- [Acknowledgements]()
+* [Design](https://github.com/PratimaGurav/cellar-89#design)
+  * [Colour Scheme]()
+  * [Typography]()
+  * [Imagery]()
+  * [Wireframes]()
+  * [Features]()
+  * [Accessibility]
+  
+* [Technologies Used]()
+  * [Languages Used]()
+  * [Frameworks, Libraries & Programs Used]()
+  
+* [Deployment & Local Development]()
+  * [Deployment]()
+  * [Using Heroku]()
+  * [Local Development]()
+    * [How to Fork]()
+    * [How to Clone]()
+
+* [Testing]()
+  
+* [Credits]()
+  * [Content]()
+  * [Media]()
+  * [Acknowledgments]()
     
 
 ## User Experience (UX) 
@@ -191,8 +209,8 @@ All Pages on the website have:
 
  - Thorough testing was done to ensure all the features work as expected and smoothly within the application for all the users including the admin. 
  Detailed summary of the testing can be found in the below attachments:
- [User Story Testing](/documentation/user_story_testing.pdf)
- [User Validation Testing](/documentation/user_validation_testing.pdf)
+  [User Story Testing](/documentation/user_story_testing.pdf)
+  [User Validation Testing](/documentation/user_validation_testing.pdf)
 
 ### Known Bugs
   - 
@@ -232,13 +250,13 @@ All Pages on the website have:
   3.  Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
   4. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
-
-
 ## Credits
 
 ### Code
 - Project- Boutique Ado was referred for designing and technical implementation.
 - [Stack Overflow](https://stackoverflow.com/) was referred for resloution of technical queries.
+
+### Media and Content 
 - Images were taken from following websites:
   - [Pexels](https://www.pexels.com/)
   - [Unsplash](https://unsplash.com/)
@@ -250,11 +268,10 @@ All Pages on the website have:
 - Blog post to understand how to choose wine.
   - [Royal Glass](https://royal-glass.com/blog/how-to-choose-wine/)
 
-
 ## Acknowledgements
 
   -   My Mentor for guidance.
   -   All the tutors (Ger, John, Kevin) from Code Institute for continues support.
 
 
-## [BACK TO TOP]()
+## [BACK TO TOP](https://github.com/PratimaGurav/cellar-89#cellar-89)
