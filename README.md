@@ -153,7 +153,9 @@ All Pages on the website have:
 
 
 ### Future Enhancements 
-  - 
+  - Age verification modal to verify the users age.
+  - Option to login using other social media accounts.
+  - Functionality for the admin users to view order history on the front end.  
  
 ## Technologies Used
 
@@ -207,10 +209,11 @@ All Pages on the website have:
 
 ### Further Testing
 
- - Thorough testing was done to ensure all the features work as expected and smoothly within the application for all the users including the admin. 
- Detailed summary of the testing can be found in the below attachments:
-  [User Story Testing](/documentation/user_story_testing.pdf)
-  [User Validation Testing](/documentation/user_validation_testing.pdf)
+  - Thorough testing was done to ensure all the features work as expected and smoothly within the application for all the users including the admin. Detailed summary of the testing can be found in the below attachments:
+    -  [User Story Testing](/documentation/user_story_testing.pdf)
+    - [User Validation Testing](/documentation/user_validation_testing.pdf)
+  
+  - Peer Code Review(channel) were also requested to review the project.   
 
 ### Known Bugs
   - 
@@ -272,6 +275,5 @@ All Pages on the website have:
 
   -   My Mentor for guidance.
   -   All the tutors (Ger, John, Kevin) from Code Institute for continues support.
-
 
 ## [BACK TO TOP](https://github.com/PratimaGurav/cellar-89#cellar-89)
