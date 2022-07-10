@@ -170,8 +170,11 @@ All Pages on the website have:
 ## Testing
 
 ### Bugs
-- Site had a feature of age verification modal [Code pen](https://codepen.io/tuhi009/pen/xxxBGdB) site was used as a reference. Age criteria and cookies statement did not work correctly and had [errors](/documentation/images/age-modal-bug.png). After consulting with the Tutor team and to avoid author plagiarism the same was deleted. 
-  As an alternative Responsible Alcohol Consumption modal was added and the marquee features age criteria. Also the sign up page has a feature to certify the age is 18 years and above. 
+- Site had a feature of age verification modal [Code pen](https://codepen.io/tuhi009/pen/xxxBGdB) site was used as a reference. Age criteria and cookies statement did not work correctly and had [error](/documentation/images/age-modal-bug.png). After consulting with the Tutor team and to avoid author plagiarism the same was deleted. 
+  - Fix : As an alternative Responsible Alcohol Consumption modal was added and the marquee features age criteria. Also the sign up page has a feature to certify the age is 18 years and above.
+
+- Review form layout had layout issue [error](/documentation/images/review-form-bug.jpeg)
+  - Fix : overflow scrollbar was added. 
 
 ### Validation
 
