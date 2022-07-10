@@ -296,7 +296,7 @@ a.category-badge > span.badge:hover {
     display: none;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox - Reference-https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp*/*/
+/* Hide scrollbar for IE, Edge and Firefox - Reference-https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp*/
 .review-form {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
@@ -600,7 +600,6 @@ footer {
       box-shadow: 0 5px 18px rgb(0 0 0 / 60%);
       border-radius: 0.25em;
       padding: 1.2rem 1rem;
-      width: 100%;
       max-width: 90%;
       margin: 1em;
     }
@@ -752,7 +751,6 @@ footer {
     }
 
     .contact__main--container {
-        max-width: 95%;
         margin-top: 8rem;
     }
 

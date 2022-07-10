@@ -140,6 +140,10 @@ I have come up with a selection of keywords which would be importnt to the custo
 
   1. Home page.
   ![Home screenshot]()
+  <details>
+    <summary>View More Images</summary>
+  </details>  
+  
 
      
 All Pages on the website have:
