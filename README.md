@@ -2,13 +2,13 @@
 
 ![Logo](/media/logo1.jpeg)
 
-## Cellar 89: E-commerce Applications.
+## Cellar'89: E-commerce Applications.
 
 ### Code Institute: Portfolio Project 5
 
 # About 
 
-Cellar 89 is an online webshop where you can find an extensive selection of quality wines from France, Italy and many other wine countries. It provides age based sign up verification feature for responsible alcohol consumption. Verification email is sent to the email address provided.
+Cellar'89 is an online webshop where you can find an extensive selection of quality wines from France, Italy and many other wine countries. It provides age based sign up verification feature for responsible alcohol consumption. Verification email is sent to the email address provided.
 It aims at users who wish to order wine online. The site allows users to create their own profile where they can save delivery address, view order history and add products to their wishlist. This profile is then stored in a database, allowing users to return to the site at any time and have their information retained. The user can either sign in using their Google account or using their credentials.
 
 Orders over €50 are delivered free and if the order is less than €50 additional cost of 10% is charged as the delivery cost. The orders which are placed before 4Pm are delivered the next day. 
