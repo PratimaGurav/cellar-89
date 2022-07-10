@@ -2,9 +2,9 @@
 
 ![Logo](/media/logo1.jpeg)
 
-## Code Institute: Portfolio Project 5
+## Cellar 89: E-commerce Applications.
 
-### Cellar 89: E-commerce Applications.
+### Code Institute: Portfolio Project 5
 
 # About 
 
