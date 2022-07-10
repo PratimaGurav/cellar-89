@@ -527,7 +527,7 @@ footer {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #ffc107;
+    background-color: #FFBD07;
     border: 2px solid black;
     padding: .375rem .75rem;
     font-size: 1rem;
@@ -541,7 +541,7 @@ footer {
 .allauth-form-inner-content button:hover,
 .allauth-form-inner-content input[type='submit']:hover {	
 	color: #fff;
-    background-color: #a31818;
+    background-color: #E0A500;
     border-color: black;
 }
 
