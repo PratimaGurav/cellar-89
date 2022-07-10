@@ -58,7 +58,7 @@ I have come up with a selection of keywords which would be importnt to the custo
 
 ### User stories
 - Agile methodology was used to create user stories. 
-- GitHub’s Kanban feature was used to track the progress of user stories. 
+- GitHub’s [Kanban](https://github.com/PratimaGurav/cellar-89/projects/1) feature was used to track the progress of user stories. 
 
   #### Site User
    1. I can view a list of all products so that I can select some to purchase.
