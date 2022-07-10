@@ -448,7 +448,7 @@ a.category-badge > span.badge:hover {
 
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
     background-color: #dc3545;
-    border-color: #dc3545;
+    border-color: black;
     border-radius: 1;
 }
 
@@ -528,7 +528,7 @@ footer {
     -ms-user-select: none;
     user-select: none;
     background-color: #ffc107;
-    border: 2px solid #ffc107;
+    border: 2px solid black;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
@@ -542,7 +542,7 @@ footer {
 .allauth-form-inner-content input[type='submit']:hover {	
 	color: #fff;
     background-color: #a31818;
-    border-color: #a31818;
+    border-color: black;
 }
 
 /*---Social account provider---*/
