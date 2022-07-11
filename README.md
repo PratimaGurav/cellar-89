@@ -141,7 +141,7 @@ I have come up with a selection of keywords which would be importnt to the custo
       - [Delete Review](/documentation/images/features/delete_review.jpeg)
       - [No Reviews](/documentation/images/features/no_reviews_user.jpeg)
   13. [My Profile page.](/documentation/images/features/my_profile.png)
-    - [Wish List](/documentation/images/features/my_profile_wishlist.png)
+      - [Wish List](/documentation/images/features/my_profile_wishlist.png)
   14. [Search Bar.](/documentation/images/features/search_bar.png)
   15. [Password Reset page.](/documentation/images/features/password_reset.png)
   16. [Verify Email page.](/documentation/images/features/verify_email.png)
@@ -155,7 +155,7 @@ All Pages on the website have:
 
 * [A favicon icon.](static/favicon/android-chrome-512x512.png)
 * [A responsive navbar.](/documentation/images/features/nav_bar.jpeg)
-      - [Navbar Sort Items](/documentation/images/features/nav_sort_items.png)
+  - [Navbar Sort Items](/documentation/images/features/nav_sort_items.png)
 * [A responsive footer.](/documentation/images/features/footer.jpeg)
 
 ### Future Enhancements 
@@ -219,10 +219,11 @@ All Pages on the website have:
     -  [User Story Testing](/documentation/user_story_testing.pdf)
     - [User Validation Testing](/documentation/user_validation_testing.pdf)
   
-  - Peer Code Review(channel) were also requested to review the project.   
+  - Peer Code Review(channel) were also requested to review the project.
+  - Friends and family members were requested to use the application and provide feedback or suggestions for any user experience issues.
 
 ### Known Bugs
-  - 
+  - There are no currently no known bugs.
 
 ## Deployment
 
@@ -277,9 +278,9 @@ All Pages on the website have:
 - Blog post to understand how to choose wine.
   - [Royal Glass](https://royal-glass.com/blog/how-to-choose-wine/)
 
-## Acknowledgements
+## Acknowledgement
 
-  -   My Mentor for guidance.
-  -   All the tutors (Ger, John, Kevin) from Code Institute for continues support.
+  -   My Mentor for guidance and timely feedbacks.
+  -   All the tutors (Ger, John, Kevin) from Code Institute for continuous support.
 
 ## [BACK TO TOP](https://github.com/PratimaGurav/cellar-89#cellar-89)
