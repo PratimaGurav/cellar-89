@@ -124,42 +124,42 @@ I have come up with a selection of keywords which would be importnt to the custo
   The website is comprised of:
 
   1. Home page.
-    [Home screenshot](/documentation/images/features/home_page.jpeg)
+    [Screenshot](/documentation/images/features/home_page.jpeg)
   2. Products page.
-    [Product page screenshot](/documentation/images/features/products_page.jpeg)
+    [Screenshot](/documentation/images/features/products_page.jpeg)
   3. Product Details page.
-  ![Product details screenshot](/documentation/images/features/product-details_page.jpeg)
+    [Screenshot](/documentation/images/features/product-details_page.jpeg)
   4. Add to cart.
-  ![Add to cart screenshot](/documentation/images/features/add_to_cart.jpeg)
+    [Screenshot](/documentation/images/features/add_to_cart.jpeg)
   5. Checkout page.
-  ![Checkout page screenshot](/documentation/images/features/checkout.jpeg)
+    [Screenshot](/documentation/images/features/checkout.jpeg)
   6. Checkout success page.
-  ![Checkout success screenshot](/documentation/images/features/checkout_success.png)
+    [Screenshot](/documentation/images/features/checkout_success.png)
   7. Contact us page.
-  ![Contact us screenshot](/documentation/images/features/contact_us.jpeg)
+    [Screenshot](/documentation/images/features/contact_us.jpeg)
   8. Sign up page.
-  ![Sign up screenshot](/documentation/images/features/sign_up.jpeg)
+    [Screenshot](/documentation/images/features/sign_up.jpeg)
   9. Sign in page.
-  ![Sign in screenshot](/documentation/images/features/sign_in.jpeg)
+    [Screenshot](/documentation/images/features/sign_in.jpeg)
   10. Sign out page.
-  ![Sign out screenshot](/documentation/images/features/sign_out.jpeg)
+    [Screenshot](/documentation/images/features/sign_out.jpeg)
   11. Reviews.
-  ![Please Review screenshot](/documentation/images/features/reviews.jpeg)
-    - ![Product Review](/documentation/images/features/product_review.jpeg)
-    - ![Reviewed](/documentation/images/features/reviewed.jpeg)
-    - ![No Reviews](/documentation/images/features/no_reviews_user.jpeg)  
+    [Screenshot](/documentation/images/features/reviews.jpeg)
+    - [Product Review](/documentation/images/features/product_review.jpeg)
+    - [Reviewed](/documentation/images/features/reviewed.jpeg)
+    - [No Reviews](/documentation/images/features/no_reviews_user.jpeg)  
   
 
      
 All Pages on the website have:
 
 * A favicon icon.
-    ![Favicon Icon](static/favicon/android-chrome-512x512.png)
+    [Screenshot](static/favicon/android-chrome-512x512.png)
 * A responsive navbar.
-    ![Navbar](/documentation/images/features/nav_bar.jpeg)
-      - ![Navbar Sort Items](/documentation/images/features/nav_sort_items.png)
+    [Screenshot](/documentation/images/features/nav_bar.jpeg)
+      - [Navbar Sort Items](/documentation/images/features/nav_sort_items.png)
 * A responsive footer.
-    ![Footer](/documentation/images/features/footer.jpeg)
+    [Screenshot](/documentation/images/features/footer.jpeg)
 
 
 ### Future Enhancements 
