@@ -34,7 +34,7 @@ I have come up with a selection of keywords which would be importnt to the custo
   - [Keywords](/documentation/images/keywords.jpeg)
   - [Long-tail keywords](/documentation/images/long-tail.jpg)
 
-![Site on a variety of device sizes]()
+![Site on a variety of device sizes](/documentation/images/responsive.jpeg)
 
 [Click here to view the live project.](https://cellar-89.herokuapp.com/)
 
