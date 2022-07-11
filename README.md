@@ -123,44 +123,40 @@ I have come up with a selection of keywords which would be importnt to the custo
 
   The website is comprised of:
 
-  1. Home page.
-    [Screenshot](/documentation/images/features/home_page.jpeg)
-  2. Products page.
-    [Screenshot](/documentation/images/features/products_page.jpeg)
-  3. Product Details page.
-    [Screenshot](/documentation/images/features/product-details_page.jpeg)
-  4. Add to cart.
-    [Screenshot](/documentation/images/features/add_to_cart.jpeg)
-  5. Checkout page.
-    [Screenshot](/documentation/images/features/checkout.jpeg)
-  6. Checkout success page.
-    [Screenshot](/documentation/images/features/checkout_success.png)
-  7. Contact us page.
-    [Screenshot](/documentation/images/features/contact_us.jpeg)
-  8. Sign up page.
-    [Screenshot](/documentation/images/features/sign_up.jpeg)
-  9. Sign in page.
-    [Screenshot](/documentation/images/features/sign_in.jpeg)
-  10. Sign out page.
-    [Screenshot](/documentation/images/features/sign_out.jpeg)
-  11. Reviews.
-    [Screenshot](/documentation/images/features/reviews.jpeg)
-    - [Product Review](/documentation/images/features/product_review.jpeg)
-    - [Reviewed](/documentation/images/features/reviewed.jpeg)
-    - [No Reviews](/documentation/images/features/no_reviews_user.jpeg)  
-  
-
+  1. [Home page](/documentation/images/features/home_page.jpeg)
+  2. [Products page.](/documentation/images/features/products_page.jpeg)
+    - [Sort Product](/documentation/images/features/sort_product.png)
+  3. [Product Details page.](/documentation/images/features/product-details_page.jpeg)
+  4. [Add to cart.](/documentation/images/features/add_to_cart.jpeg)
+  5. [Shopping cart.](/documentation/images/features/shopping_cart.jpeg)
+  6. [Checkout page.](/documentation/images/features/checkout.jpeg)
+  7. [Checkout success page.](/documentation/images/features/checkout_success.png)
+  8. [Contact us page.](/documentation/images/features/contact_us.jpeg)
+  9. [Sign up page.](/documentation/images/features/sign_up.jpeg)
+  10. [Sign in page.](/documentation/images/features/sign_in.jpeg)
+  11. [Sign out page.](/documentation/images/features/sign_out.jpeg)
+  12. [Reviews.](/documentation/images/features/reviews.jpeg)
+      - [Product Review](/documentation/images/features/product_review.jpeg)
+      - [Reviewed](/documentation/images/features/reviewed.jpeg)
+      - [Delete Review](/documentation/images/features/delete_review.jpeg)
+      - [No Reviews](/documentation/images/features/no_reviews_user.jpeg)
+  13. [My Profile page.](/documentation/images/features/my_profile.png)
+    - [Wish List](/documentation/images/features/my_profile_wishlist.png)
+  14. [Search Bar.](/documentation/images/features/search_bar.png)
+  15. [Password Reset page.](/documentation/images/features/password_reset.png)
+  16. [Verify Email page.](/documentation/images/features/verify_email.png)
+  17. [Product Management page.](/documentation/images/features/product_management.png)
+      - [Product page-Admin](/documentation/images/features/products_page_admin.jpeg)
+      - [Product details page-Admin](/documentation/images/features/product-details_page_admin.jpeg)
+      - [Edit product-Admin](/documentation/images/features/edit_product.jpeg)
+      - [Delete product-Admin](/documentation/images/features/delete_product.png)
      
 All Pages on the website have:
 
-* A favicon icon.
-    [Screenshot](static/favicon/android-chrome-512x512.png)
-* A responsive navbar.
-    [Screenshot](/documentation/images/features/nav_bar.jpeg)
+* [A favicon icon.](static/favicon/android-chrome-512x512.png)
+* [A responsive navbar.](/documentation/images/features/nav_bar.jpeg)
       - [Navbar Sort Items](/documentation/images/features/nav_sort_items.png)
-* A responsive footer.
-    [Screenshot](/documentation/images/features/footer.jpeg)
-
+* [A responsive footer.](/documentation/images/features/footer.jpeg)
 
 ### Future Enhancements 
   - Age verification modal to verify the users age.
