@@ -125,7 +125,7 @@ I have come up with a selection of keywords which would be importnt to the custo
 
   1. [Home page](/documentation/images/features/home_page.jpeg)
   2. [Products page.](/documentation/images/features/products_page.jpeg)
-    - [Sort Product](/documentation/images/features/sort_product.png)
+      - [Sort Product](/documentation/images/features/sort_product.png)
   3. [Product Details page.](/documentation/images/features/product-details_page.jpeg)
   4. [Add to cart.](/documentation/images/features/add_to_cart.jpeg)
   5. [Shopping cart.](/documentation/images/features/shopping_cart.jpeg)
@@ -223,22 +223,22 @@ All Pages on the website have:
   - Friends and family members were requested to use the application and provide feedback or suggestions for any user experience issues.
 
 ### Known Bugs
-  - There are no currently no known bugs.
+  - There are currently no known bugs.
 
 ## Deployment
 
 ### Using Heroku
-  Create an account and login to [Heroku](https://id.heroku.com/)
-    - Create a new app, with an appropriate app name and choose a region.
+  - Create an account and login to [Heroku](https://id.heroku.com/)
+  - Create a new app, with an appropriate app name and choose a region.
     ![Create App](/documentation/images/heroku-create-app.jpg)
-    - In Resources add Heroku Postgres.
+  - In Resources add Heroku Postgres.
     ![Resources](/documentation/images/heroku-resources.jpg)
-    - Within your newly created app go to settings and click Config Vars. Use the DATABASE_URL Value and add it to your env.py file also you need to connect it via settings.py.
+  - Within your newly created app go to settings and click Config Vars. Use the DATABASE_URL Value and add it to your env.py file also you need to connect it via settings.py.
     ![Config Vars](/documentation/images/heroku-configvars.jpg)
-    - Create a SECRET_KEY Key and the Value as the desired key.
-    - Then go to the Deploy tab next to Deployment Method, click GitHub to connect your account and repository.
-    - At the bottom of the page hit deploy branch making sure it is set to main.
-    - Also "Enable Automatic Deploys" can be clicked to keep the app up to date with your Github repository.
+  - Create a SECRET_KEY Key and the Value as the desired key.
+  - Then go to the Deploy tab next to Deployment Method, click GitHub to connect your account and repository.
+  - At the bottom of the page hit deploy branch making sure it is set to main.
+  - Also "Enable Automatic Deploys" can be clicked to keep the app up to date with your Github repository.
 
 ### Amazon Web Services S3
   Create an account and login to [AWS](https://aws.amazon.com/)
