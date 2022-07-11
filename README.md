@@ -43,34 +43,19 @@ I have come up with a selection of keywords which would be importnt to the custo
 ## Table of Contents:
 
 * [User Experience (UX)](https://github.com/PratimaGurav/cellar-89#user-experience-ux)
-  * [User Stories](https://github.com/PratimaGurav/cellar-89#user-stories)
 
 * [Design](https://github.com/PratimaGurav/cellar-89#design)
-  * [Colour Scheme]()
-  * [Typography]()
-  * [Imagery]()
-  * [Wireframes]()
-  * [Features]()
-  * [Accessibility]
   
-* [Technologies Used]()
-  * [Languages Used]()
-  * [Frameworks, Libraries & Programs Used]()
-  
-* [Deployment & Local Development]()
-  * [Deployment]()
-  * [Using Heroku]()
-  * [Local Development]()
-    * [How to Fork]()
-    * [How to Clone]()
+* [Technologies Used](https://github.com/PratimaGurav/cellar-89#technologies-used)
 
-* [Testing]()
+* [Information Architecture](https://github.com/PratimaGurav/cellar-89#information-architecture)
   
-* [Credits]()
-  * [Content]()
-  * [Media]()
-  * [Acknowledgments]()
-    
+* [Testing](https://github.com/PratimaGurav/cellar-89#testing)
+
+* [Deployment](https://github.com/PratimaGurav/cellar-89#deployment)
+  
+* [Credits](https://github.com/PratimaGurav/cellar-89#credits)
+
 
 ## User Experience (UX) 
 
@@ -158,7 +143,7 @@ I have come up with a selection of keywords which would be importnt to the custo
   ![Sign in screenshot](/documentation/images/features/sign_in.jpeg)
   10. Sign out page.
   ![Sign out screenshot](/documentation/images/features/sign_out.jpeg)
-  11. Reviews
+  11. Reviews.
   ![Please Review screenshot](/documentation/images/features/reviews.jpeg)
     - ![Product Review](/documentation/images/features/product_review.jpeg)
     - ![Reviewed](/documentation/images/features/reviewed.jpeg)
