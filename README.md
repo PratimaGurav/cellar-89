@@ -124,9 +124,9 @@ I have come up with a selection of keywords which would be importnt to the custo
   The website is comprised of:
 
   1. Home page.
-  ![Home screenshot](/documentation/images/features/home_page.jpeg)
+    [Home screenshot](/documentation/images/features/home_page.jpeg)
   2. Products page.
-  ![Product page screenshot](/documentation/images/features/products_page.jpeg)
+    [Product page screenshot](/documentation/images/features/products_page.jpeg)
   3. Product Details page.
   ![Product details screenshot](/documentation/images/features/product-details_page.jpeg)
   4. Add to cart.
