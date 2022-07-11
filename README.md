@@ -31,8 +31,8 @@ In addition to our target audience, our team aims to promote responsible alcohol
 
 Generated sitemap.xml and robots.txt files to improve the quality and quantity of website traffic. 
 I have come up with a selection of keywords which would be importnt to the customers and added them in the [meta](/documentation/images/meta.jpeg).
-[Long-tail](/documentation/images/long-tail.jpg)
-[Keywords](/documentation/images/keywords.jpeg) 
+  - [Keywords](/documentation/images/keywords.jpeg)
+  - [Long-tail keywords](/documentation/images/long-tail.jpg)
 
 ![Site on a variety of device sizes]()
 
