@@ -198,6 +198,35 @@ All Pages on the website have:
 ### Entity-Relationship Diagram
 - The ERD was created using [Lucid](https://lucid.app/users/login#/login)
 - [Database Scheme](/documentation/database-diagram.pdf)
+
+### Data Modelling
+- Allauth User Model
+  - The user model was created using [Django-allauth](https://django-allauth.readthedocs.io/en/latest/).
+
+- Category Model
+
+  | Name          | Database Key  | Field Type    | Validation |
+  | ------------- | ------------- | ------------- | ---------- |
+  | Name	        | name          | CharField 	  | max_length=250|
+  | Friendly Name | friendly_name | CharField     | max_length=250, null=True, blank=True|
+
+- Product Model
+
+  | Name          | Database Key  | Field Type    | Validation |
+  | ------------- | ------------- | ------------- | ---------- |
+  | Category	    | category      | ForeignKey 	  | Category, null=True, blank=True,on_delete=models.SET_NULL|
+  | SKU		        | sku           | CharField     | max_length=254, null=True, blank=True|
+  | Name          | name          | CharField     | max_length=254|
+  | Country       | country       | CharField     | max_length=254|
+  | Description   | description   | TextField     |               |
+  | Price         | price         | DecimalField  | max_digits=6, decimal_places=2|
+  | Rating        | rating        | DecimalField  | max_digits=6, decimal_places=2, null=True, blank=True|
+  | Alcohol Percentage | alcohol_percentage | DecimalField | max_digits=3, decimal_places=1, null=True, blank=True|
+  | Grape Variety |  grape_variety | CharField    | max_length=254|
+  | Image Url     | image_url      | URLField     | max_length=1024, null=True, blank=True|
+  | Image         | image          | ImageField   | null=True, blank=True|
+
+
     
 ## Testing
 
