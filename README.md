@@ -277,7 +277,25 @@ All Pages on the website have:
   | Subject       | subject       | CharField     | blank=False, max_length=200|
   | Message       |message        | TextField     | blank=False|
 
+- UserProfile Model
 
+  | Name          | Database Key  | Field Type    | Validation |
+  | ------------- | ------------- | ------------- | ---------- |
+  | User          | user          | OneToOneField | User, on_delete=models.CASCADE|
+  | Default Phone Number | default_phone_number | CharField | max_length=20, null=True, blank=True|
+  | Default Street Address1 | default_street_address1 | CharField | max_length=80, null=True, blank=True|
+  | Default Street Address2 | default_street_address2 | CharField | max_length=80, null=True, blank=True|
+  | Default Town or City    | default_town_or_city    | CharField | max_length=40, null=True, blank=True|
+  | Default County          | default_county          | CharField | max_length=80, null=True, blank=True|
+  | Default Postcode        | default_postcode        | CharField | max_length=20, null=True, blank=True|
+  | Default Country         | default_country         | CountryField | blank_label='Country', null=True, blank=True|
+
+- WishListItem Model
+
+  | Name          | Database Key  | Field Type    | Validation |
+  | ------------- | ------------- | ------------- | ---------- |
+  | User    	    | user          | OneToOneField | User, on_delete=models.CASCADE|
+  | Product       | product       | ManyToManyField | Product, blank=True |
 
 ## Testing
 
