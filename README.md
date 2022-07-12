@@ -226,6 +226,16 @@ All Pages on the website have:
   | Image Url     | image_url      | URLField     | max_length=1024, null=True, blank=True|
   | Image         | image          | ImageField   | null=True, blank=True|
 
+- Review Model
+
+  | Name          | Database Key  | Field Type    | Validation |
+  | ------------- | ------------- | ------------- | ---------- |
+  | User    	    | user          | ForeignKey 	  | User, null=True, on_delete=models.SET_NULL|
+  | Product       | product       | ForeignKey    | Product, on_delete=models.CASCADE|
+  | Product Rating| product_rating| IntegerField  | choices=RATING_CHOICES, default=5|
+  | Title         | title         | CharField     | verbose_name=('Review Title'), max_length=25, null=False, blank=False|
+  | User Review   | user_review   | TextField     | verbose_name=('User Review'), max_length=250, null=False, blank=False|
+  | Created On    | created_on    | DateTimeField | auto_now_add=True |
 
     
 ## Testing
