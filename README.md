@@ -268,6 +268,14 @@ All Pages on the website have:
   | Quantity      | quantity      | IntegerField  | null=False, blank=False, default=0|
   | Lineitem Total|lineitem_total | DecimalField  | max_digits=6, decimal_places=2, null=False, blank=False, editable=False|
 
+- Contact Model
+
+  | Name          | Database Key  | Field Type    | Validation |
+  | ------------- | ------------- | ------------- | ---------- |
+  | Name    	    | name          | CharField 	  | blank=False, max_length=200|
+  | Email         | email         | EmailField    |                            |
+  | Subject       | subject       | CharField     | blank=False, max_length=200|
+  | Message       |message        | TextField     | blank=False|
 
 
 
