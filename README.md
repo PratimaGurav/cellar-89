@@ -127,7 +127,7 @@ I have come up with a selection of keywords which would be importnt to the custo
 
   The website is comprised of:
 
-  1. [Home page](/documentation/images/features/home_page.jpeg)
+  1. [Home page.](/documentation/images/features/home_page.jpeg)
   2. [Products page.](/documentation/images/features/products_page.jpeg)
       - [Sort Product](/documentation/images/features/sort_product.png)
   3. [Product Details page.](/documentation/images/features/product-details_page.jpeg)
@@ -154,6 +154,7 @@ I have come up with a selection of keywords which would be importnt to the custo
       - [Product details page-Admin](/documentation/images/features/product-details_page_admin.jpeg)
       - [Edit product-Admin](/documentation/images/features/edit_product.jpeg)
       - [Delete product-Admin](/documentation/images/features/delete_product.png)
+  18. [404 error page.](/documentation/images/error-404.jpeg)
      
 All Pages on the website have:
 
