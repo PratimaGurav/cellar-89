@@ -326,7 +326,7 @@ All Pages on the website have:
   - Friends and family members were requested to use the application and provide feedback or suggestions for any user experience issues.
 
 ### Known Bugs
-  - There are currently no known bugs.
+  - If multiple products are selected on the shopping cart page, the images appeared are of different sizes as these were taken from different websites.
 
 ## Deployment
 

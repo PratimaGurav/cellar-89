@@ -43,8 +43,7 @@
                             {% for item in wishlist_items %}
                                 <tr>
                                     <td>
-                                        <a href="{% url 'product_detail' item.id %"
-                                        title="{{ item.name }}">
+                                        <a href="{% url 'product_detail' item.id %}">
                                              {{ item.name }}
                                         </a>
                                     </td>
