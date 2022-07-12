@@ -17,6 +17,10 @@ Products can be added to the cart and can be purchased using card payment. Order
 
 Users can also stay updated with all the latest and exclusive offers by following on Facebook page and by subscribing to the monthly newsletter.
 
+Stripe test card can be used to test the card payment functionality.
+
+Card Number- 4242 4242 4242 4242 - CVC and 5-number postal code at the end of the card can be any numbers.
+
 
 # Target Audience
 
