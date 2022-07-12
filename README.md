@@ -258,7 +258,19 @@ All Pages on the website have:
   | Grand Total   | grand_total   | DecimalField  | max_digits=10, decimal_places=2, null=False, default=0|
   | Original Cart | original_cart | TextField     | null=False, blank=False, default=''|
   | Stripe Pid    | stripe_pid    | CharField     | max_length=254, null=False, blank=False, default=''|
-    
+
+- OrderLineItem Model
+
+  | Name          | Database Key  | Field Type    | Validation |
+  | ------------- | ------------- | ------------- | ---------- |
+  | Order    	    | order         | ForeignKey 	  | Order, null=False, blank=False, on_delete=models.CASCADE related_name='lineitems'|
+  | Product       | product       | ForeignKey    | Product, null=False, blank=False, on_delete=models.CASCADE|
+  | Quantity      | quantity      | IntegerField  | null=False, blank=False, default=0|
+  | Lineitem Total|lineitem_total | DecimalField  | max_digits=6, decimal_places=2, null=False, blank=False, editable=False|
+
+
+
+
 ## Testing
 
 ### Bugs
