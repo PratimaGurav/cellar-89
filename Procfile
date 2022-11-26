@@ -1,1 +1,0 @@
-web: gunicorn wine_cellar.wsgi:application
